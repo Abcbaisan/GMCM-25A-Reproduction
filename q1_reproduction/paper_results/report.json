@@ -1,0 +1,1262 @@
+{
+  "Conv_Case0": {
+    "nodes": 2580,
+    "edges": 3869,
+    "raw_initial_peaks": {
+      "id": 133031,
+      "greedy": 80170,
+      "critical": 17138
+    },
+    "initial_peaks": {
+      "id": 133031,
+      "greedy": 80170,
+      "critical": 17138
+    },
+    "compact": false,
+    "dfs_variants": false,
+    "dfs_root_trials": 0,
+    "chosen": "critical",
+    "final_peak": 17138,
+    "per_type_peaks": {
+      "L1": 17138,
+      "L0B": 96
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 20000,
+    "trace": [
+      {
+        "step": 1,
+        "current": 17138,
+        "best": 17138,
+        "moved": 0,
+        "accepted": 0,
+        "improvements": 0
+      },
+      {
+        "step": 1001,
+        "current": 29132,
+        "best": 17138,
+        "moved": 704,
+        "accepted": 678,
+        "improvements": 0
+      },
+      {
+        "step": 2001,
+        "current": 37603,
+        "best": 17138,
+        "moved": 1426,
+        "accepted": 1354,
+        "improvements": 0
+      },
+      {
+        "step": 3001,
+        "current": 38810,
+        "best": 17138,
+        "moved": 2181,
+        "accepted": 2034,
+        "improvements": 0
+      },
+      {
+        "step": 4001,
+        "current": 40708,
+        "best": 17138,
+        "moved": 2957,
+        "accepted": 2736,
+        "improvements": 0
+      },
+      {
+        "step": 5001,
+        "current": 41164,
+        "best": 17138,
+        "moved": 3731,
+        "accepted": 3394,
+        "improvements": 0
+      },
+      {
+        "step": 6001,
+        "current": 39865,
+        "best": 17138,
+        "moved": 4528,
+        "accepted": 4060,
+        "improvements": 0
+      },
+      {
+        "step": 7001,
+        "current": 38707,
+        "best": 17138,
+        "moved": 5319,
+        "accepted": 4714,
+        "improvements": 0
+      },
+      {
+        "step": 8001,
+        "current": 38152,
+        "best": 17138,
+        "moved": 6097,
+        "accepted": 5352,
+        "improvements": 0
+      },
+      {
+        "step": 9001,
+        "current": 37118,
+        "best": 17138,
+        "moved": 6885,
+        "accepted": 5991,
+        "improvements": 0
+      },
+      {
+        "step": 10001,
+        "current": 36234,
+        "best": 17138,
+        "moved": 7680,
+        "accepted": 6603,
+        "improvements": 0
+      },
+      {
+        "step": 11001,
+        "current": 35566,
+        "best": 17138,
+        "moved": 8482,
+        "accepted": 7230,
+        "improvements": 0
+      },
+      {
+        "step": 12001,
+        "current": 34477,
+        "best": 17138,
+        "moved": 9271,
+        "accepted": 7850,
+        "improvements": 0
+      },
+      {
+        "step": 13001,
+        "current": 34116,
+        "best": 17138,
+        "moved": 10079,
+        "accepted": 8473,
+        "improvements": 0
+      },
+      {
+        "step": 14001,
+        "current": 33273,
+        "best": 17138,
+        "moved": 10866,
+        "accepted": 9093,
+        "improvements": 0
+      },
+      {
+        "step": 15001,
+        "current": 32764,
+        "best": 17138,
+        "moved": 11686,
+        "accepted": 9743,
+        "improvements": 0
+      },
+      {
+        "step": 16001,
+        "current": 32455,
+        "best": 17138,
+        "moved": 12484,
+        "accepted": 10344,
+        "improvements": 0
+      },
+      {
+        "step": 17001,
+        "current": 31795,
+        "best": 17138,
+        "moved": 13291,
+        "accepted": 10964,
+        "improvements": 0
+      },
+      {
+        "step": 18001,
+        "current": 31323,
+        "best": 17138,
+        "moved": 14109,
+        "accepted": 11563,
+        "improvements": 0
+      },
+      {
+        "step": 19001,
+        "current": 31182,
+        "best": 17138,
+        "moved": 14922,
+        "accepted": 12171,
+        "improvements": 0
+      },
+      {
+        "step": 20000,
+        "current": 30626,
+        "best": 17138,
+        "moved": 15715,
+        "accepted": 12765,
+        "improvements": 0
+      }
+    ],
+    "objective": "l1ub",
+    "l0_single": true,
+    "paper_score": true,
+    "failed_initializations": {
+      "depth": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+    },
+    "parameters": {
+      "T_initial": 856.9000000000001,
+      "T_final": 0.01,
+      "boundary_weight": 4,
+      "other_weight": 1
+    },
+    "scope": "DAG and buffer lifetimes; optional L0 exclusivity; no L1/UB capacity limits"
+  },
+  "Conv_Case1": {
+    "nodes": 36086,
+    "edges": 85653,
+    "raw_initial_peaks": {
+      "id": 383112,
+      "greedy": 310408,
+      "critical": 85868
+    },
+    "initial_peaks": {
+      "id": 383112,
+      "greedy": 310408,
+      "critical": 85868
+    },
+    "compact": false,
+    "dfs_variants": false,
+    "dfs_root_trials": 0,
+    "chosen": "critical",
+    "final_peak": 85868,
+    "per_type_peaks": {
+      "L1": 85868,
+      "L0B": 96
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 20000,
+    "trace": [
+      {
+        "step": 1,
+        "current": 85868,
+        "best": 85868,
+        "moved": 1,
+        "accepted": 1,
+        "improvements": 0
+      },
+      {
+        "step": 1001,
+        "current": 87060,
+        "best": 85868,
+        "moved": 609,
+        "accepted": 608,
+        "improvements": 0
+      },
+      {
+        "step": 2001,
+        "current": 87574,
+        "best": 85868,
+        "moved": 1238,
+        "accepted": 1237,
+        "improvements": 0
+      },
+      {
+        "step": 3001,
+        "current": 88279,
+        "best": 85868,
+        "moved": 1866,
+        "accepted": 1863,
+        "improvements": 0
+      },
+      {
+        "step": 4001,
+        "current": 88624,
+        "best": 85868,
+        "moved": 2496,
+        "accepted": 2491,
+        "improvements": 0
+      },
+      {
+        "step": 5001,
+        "current": 89210,
+        "best": 85868,
+        "moved": 3118,
+        "accepted": 3109,
+        "improvements": 0
+      },
+      {
+        "step": 6001,
+        "current": 89346,
+        "best": 85868,
+        "moved": 3737,
+        "accepted": 3724,
+        "improvements": 0
+      },
+      {
+        "step": 7001,
+        "current": 89697,
+        "best": 85868,
+        "moved": 4372,
+        "accepted": 4353,
+        "improvements": 0
+      },
+      {
+        "step": 8001,
+        "current": 89701,
+        "best": 85868,
+        "moved": 4989,
+        "accepted": 4963,
+        "improvements": 0
+      },
+      {
+        "step": 9001,
+        "current": 89508,
+        "best": 85868,
+        "moved": 5632,
+        "accepted": 5594,
+        "improvements": 0
+      },
+      {
+        "step": 10001,
+        "current": 89559,
+        "best": 85868,
+        "moved": 6261,
+        "accepted": 6157,
+        "improvements": 0
+      },
+      {
+        "step": 11001,
+        "current": 89444,
+        "best": 85868,
+        "moved": 6899,
+        "accepted": 6665,
+        "improvements": 0
+      },
+      {
+        "step": 12001,
+        "current": 89358,
+        "best": 85868,
+        "moved": 7523,
+        "accepted": 7149,
+        "improvements": 0
+      },
+      {
+        "step": 13001,
+        "current": 89115,
+        "best": 85868,
+        "moved": 8152,
+        "accepted": 7631,
+        "improvements": 0
+      },
+      {
+        "step": 14001,
+        "current": 88909,
+        "best": 85868,
+        "moved": 8782,
+        "accepted": 8104,
+        "improvements": 0
+      },
+      {
+        "step": 15001,
+        "current": 88845,
+        "best": 85868,
+        "moved": 9406,
+        "accepted": 8588,
+        "improvements": 0
+      },
+      {
+        "step": 16001,
+        "current": 88695,
+        "best": 85868,
+        "moved": 10059,
+        "accepted": 9097,
+        "improvements": 0
+      },
+      {
+        "step": 17001,
+        "current": 88589,
+        "best": 85868,
+        "moved": 10684,
+        "accepted": 9590,
+        "improvements": 0
+      },
+      {
+        "step": 18001,
+        "current": 88543,
+        "best": 85868,
+        "moved": 11324,
+        "accepted": 10080,
+        "improvements": 0
+      },
+      {
+        "step": 19001,
+        "current": 88358,
+        "best": 85868,
+        "moved": 11947,
+        "accepted": 10536,
+        "improvements": 0
+      },
+      {
+        "step": 20000,
+        "current": 88324,
+        "best": 85868,
+        "moved": 12600,
+        "accepted": 11016,
+        "improvements": 0
+      }
+    ],
+    "objective": "l1ub",
+    "l0_single": true,
+    "paper_score": true,
+    "failed_initializations": {
+      "depth": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+    },
+    "parameters": {
+      "T_initial": 4293.400000000001,
+      "T_final": 0.01,
+      "boundary_weight": 4,
+      "other_weight": 1
+    },
+    "scope": "DAG and buffer lifetimes; optional L0 exclusivity; no L1/UB capacity limits"
+  },
+  "FlashAttention_Case0": {
+    "nodes": 1716,
+    "edges": 2712,
+    "raw_initial_peaks": {
+      "id": 35592,
+      "greedy": 26728
+    },
+    "initial_peaks": {
+      "id": 35592,
+      "greedy": 26728
+    },
+    "compact": false,
+    "dfs_variants": false,
+    "dfs_root_trials": 0,
+    "chosen": "greedy",
+    "final_peak": 12470,
+    "per_type_peaks": {
+      "L1": 5376,
+      "UB": 8886,
+      "L0A": 128,
+      "L0C": 256,
+      "L0B": 128
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 20000,
+    "trace": [
+      {
+        "step": 1,
+        "current": 26728,
+        "best": 26728,
+        "moved": 1,
+        "accepted": 1,
+        "improvements": 0
+      },
+      {
+        "step": 1001,
+        "current": 24352,
+        "best": 24352,
+        "moved": 897,
+        "accepted": 892,
+        "improvements": 39
+      },
+      {
+        "step": 2001,
+        "current": 23166,
+        "best": 22480,
+        "moved": 1806,
+        "accepted": 1787,
+        "improvements": 53
+      },
+      {
+        "step": 3001,
+        "current": 25624,
+        "best": 22480,
+        "moved": 2708,
+        "accepted": 2672,
+        "improvements": 53
+      },
+      {
+        "step": 4001,
+        "current": 24582,
+        "best": 22480,
+        "moved": 3615,
+        "accepted": 3547,
+        "improvements": 53
+      },
+      {
+        "step": 5001,
+        "current": 22394,
+        "best": 22394,
+        "moved": 4554,
+        "accepted": 4444,
+        "improvements": 57
+      },
+      {
+        "step": 6001,
+        "current": 21146,
+        "best": 21136,
+        "moved": 5478,
+        "accepted": 5315,
+        "improvements": 83
+      },
+      {
+        "step": 7001,
+        "current": 19042,
+        "best": 19042,
+        "moved": 6422,
+        "accepted": 6187,
+        "improvements": 118
+      },
+      {
+        "step": 8001,
+        "current": 17174,
+        "best": 17174,
+        "moved": 7335,
+        "accepted": 7007,
+        "improvements": 158
+      },
+      {
+        "step": 9001,
+        "current": 16608,
+        "best": 16604,
+        "moved": 8260,
+        "accepted": 7806,
+        "improvements": 183
+      },
+      {
+        "step": 10001,
+        "current": 15612,
+        "best": 15612,
+        "moved": 9185,
+        "accepted": 8599,
+        "improvements": 206
+      },
+      {
+        "step": 11001,
+        "current": 14846,
+        "best": 14846,
+        "moved": 10122,
+        "accepted": 9408,
+        "improvements": 231
+      },
+      {
+        "step": 12001,
+        "current": 14406,
+        "best": 14406,
+        "moved": 11065,
+        "accepted": 10201,
+        "improvements": 252
+      },
+      {
+        "step": 13001,
+        "current": 14056,
+        "best": 14056,
+        "moved": 12003,
+        "accepted": 10981,
+        "improvements": 274
+      },
+      {
+        "step": 14001,
+        "current": 13814,
+        "best": 13814,
+        "moved": 12945,
+        "accepted": 11765,
+        "improvements": 296
+      },
+      {
+        "step": 15001,
+        "current": 13692,
+        "best": 13692,
+        "moved": 13880,
+        "accepted": 12522,
+        "improvements": 313
+      },
+      {
+        "step": 16001,
+        "current": 13416,
+        "best": 13416,
+        "moved": 14815,
+        "accepted": 13284,
+        "improvements": 335
+      },
+      {
+        "step": 17001,
+        "current": 13092,
+        "best": 13092,
+        "moved": 15751,
+        "accepted": 14044,
+        "improvements": 353
+      },
+      {
+        "step": 18001,
+        "current": 12990,
+        "best": 12990,
+        "moved": 16688,
+        "accepted": 14814,
+        "improvements": 368
+      },
+      {
+        "step": 19001,
+        "current": 12806,
+        "best": 12806,
+        "moved": 17634,
+        "accepted": 15582,
+        "improvements": 387
+      },
+      {
+        "step": 20000,
+        "current": 12470,
+        "best": 12470,
+        "moved": 18552,
+        "accepted": 16310,
+        "improvements": 413
+      }
+    ],
+    "objective": "l1ub",
+    "l0_single": true,
+    "paper_score": true,
+    "failed_initializations": {
+      "depth": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度",
+      "critical": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+    },
+    "parameters": {
+      "T_initial": 1336.4,
+      "T_final": 0.01,
+      "boundary_weight": 4,
+      "other_weight": 1
+    },
+    "scope": "DAG and buffer lifetimes; optional L0 exclusivity; no L1/UB capacity limits"
+  },
+  "FlashAttention_Case1": {
+    "nodes": 6952,
+    "edges": 11184,
+    "raw_initial_peaks": {
+      "id": 134288,
+      "greedy": 106992
+    },
+    "initial_peaks": {
+      "id": 134288,
+      "greedy": 106992
+    },
+    "compact": false,
+    "dfs_variants": false,
+    "dfs_root_trials": 0,
+    "chosen": "greedy",
+    "final_peak": 60412,
+    "per_type_peaks": {
+      "UB": 47762,
+      "L1": 14336,
+      "L0A": 128,
+      "L0C": 256,
+      "L0B": 128
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 20000,
+    "trace": [
+      {
+        "step": 1,
+        "current": 107120,
+        "best": 106992,
+        "moved": 1,
+        "accepted": 1,
+        "improvements": 0
+      },
+      {
+        "step": 1001,
+        "current": 100642,
+        "best": 100386,
+        "moved": 882,
+        "accepted": 880,
+        "improvements": 100
+      },
+      {
+        "step": 2001,
+        "current": 95710,
+        "best": 95710,
+        "moved": 1760,
+        "accepted": 1756,
+        "improvements": 178
+      },
+      {
+        "step": 3001,
+        "current": 94840,
+        "best": 94200,
+        "moved": 2637,
+        "accepted": 2630,
+        "improvements": 200
+      },
+      {
+        "step": 4001,
+        "current": 92314,
+        "best": 92314,
+        "moved": 3531,
+        "accepted": 3514,
+        "improvements": 230
+      },
+      {
+        "step": 5001,
+        "current": 90142,
+        "best": 90142,
+        "moved": 4432,
+        "accepted": 4401,
+        "improvements": 266
+      },
+      {
+        "step": 6001,
+        "current": 87992,
+        "best": 87974,
+        "moved": 5327,
+        "accepted": 5258,
+        "improvements": 289
+      },
+      {
+        "step": 7001,
+        "current": 85368,
+        "best": 85368,
+        "moved": 6216,
+        "accepted": 6105,
+        "improvements": 328
+      },
+      {
+        "step": 8001,
+        "current": 81194,
+        "best": 81194,
+        "moved": 7129,
+        "accepted": 6944,
+        "improvements": 380
+      },
+      {
+        "step": 9001,
+        "current": 79296,
+        "best": 79296,
+        "moved": 8036,
+        "accepted": 7786,
+        "improvements": 413
+      },
+      {
+        "step": 10001,
+        "current": 76830,
+        "best": 76828,
+        "moved": 8943,
+        "accepted": 8622,
+        "improvements": 446
+      },
+      {
+        "step": 11001,
+        "current": 74764,
+        "best": 74764,
+        "moved": 9887,
+        "accepted": 9474,
+        "improvements": 478
+      },
+      {
+        "step": 12001,
+        "current": 72520,
+        "best": 72520,
+        "moved": 10808,
+        "accepted": 10319,
+        "improvements": 520
+      },
+      {
+        "step": 13001,
+        "current": 70942,
+        "best": 70942,
+        "moved": 11740,
+        "accepted": 11133,
+        "improvements": 555
+      },
+      {
+        "step": 14001,
+        "current": 69440,
+        "best": 69440,
+        "moved": 12653,
+        "accepted": 11952,
+        "improvements": 598
+      },
+      {
+        "step": 15001,
+        "current": 67412,
+        "best": 67412,
+        "moved": 13576,
+        "accepted": 12768,
+        "improvements": 644
+      },
+      {
+        "step": 16001,
+        "current": 65818,
+        "best": 65818,
+        "moved": 14507,
+        "accepted": 13571,
+        "improvements": 685
+      },
+      {
+        "step": 17001,
+        "current": 64546,
+        "best": 64546,
+        "moved": 15437,
+        "accepted": 14382,
+        "improvements": 717
+      },
+      {
+        "step": 18001,
+        "current": 62800,
+        "best": 62800,
+        "moved": 16365,
+        "accepted": 15181,
+        "improvements": 766
+      },
+      {
+        "step": 19001,
+        "current": 61578,
+        "best": 61578,
+        "moved": 17282,
+        "accepted": 15963,
+        "improvements": 800
+      },
+      {
+        "step": 20000,
+        "current": 60412,
+        "best": 60412,
+        "moved": 18206,
+        "accepted": 16753,
+        "improvements": 834
+      }
+    ],
+    "objective": "l1ub",
+    "l0_single": true,
+    "paper_score": true,
+    "failed_initializations": {
+      "depth": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度",
+      "critical": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+    },
+    "parameters": {
+      "T_initial": 5349.6,
+      "T_final": 0.01,
+      "boundary_weight": 4,
+      "other_weight": 1
+    },
+    "scope": "DAG and buffer lifetimes; optional L0 exclusivity; no L1/UB capacity limits"
+  },
+  "Matmul_Case0": {
+    "nodes": 4160,
+    "edges": 7104,
+    "raw_initial_peaks": {
+      "id": 16384,
+      "greedy": 9216
+    },
+    "initial_peaks": {
+      "id": 16384,
+      "greedy": 9216
+    },
+    "compact": false,
+    "dfs_variants": false,
+    "dfs_root_trials": 0,
+    "chosen": "greedy",
+    "final_peak": 9216,
+    "per_type_peaks": {
+      "L0C": 256,
+      "L0A": 128,
+      "L0B": 128,
+      "L1": 9216
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 20000,
+    "trace": [
+      {
+        "step": 1,
+        "current": 9216,
+        "best": 9216,
+        "moved": 1,
+        "accepted": 1,
+        "improvements": 0
+      },
+      {
+        "step": 1001,
+        "current": 11008,
+        "best": 9216,
+        "moved": 627,
+        "accepted": 625,
+        "improvements": 0
+      },
+      {
+        "step": 2001,
+        "current": 11904,
+        "best": 9216,
+        "moved": 1262,
+        "accepted": 1255,
+        "improvements": 0
+      },
+      {
+        "step": 3001,
+        "current": 12544,
+        "best": 9216,
+        "moved": 1851,
+        "accepted": 1839,
+        "improvements": 0
+      },
+      {
+        "step": 4001,
+        "current": 12672,
+        "best": 9216,
+        "moved": 2448,
+        "accepted": 2428,
+        "improvements": 0
+      },
+      {
+        "step": 5001,
+        "current": 12544,
+        "best": 9216,
+        "moved": 3040,
+        "accepted": 3010,
+        "improvements": 0
+      },
+      {
+        "step": 6001,
+        "current": 12416,
+        "best": 9216,
+        "moved": 3626,
+        "accepted": 3585,
+        "improvements": 0
+      },
+      {
+        "step": 7001,
+        "current": 12288,
+        "best": 9216,
+        "moved": 4191,
+        "accepted": 4139,
+        "improvements": 0
+      },
+      {
+        "step": 8001,
+        "current": 12288,
+        "best": 9216,
+        "moved": 4787,
+        "accepted": 4726,
+        "improvements": 0
+      },
+      {
+        "step": 9001,
+        "current": 12160,
+        "best": 9216,
+        "moved": 5367,
+        "accepted": 5297,
+        "improvements": 0
+      },
+      {
+        "step": 10001,
+        "current": 12032,
+        "best": 9216,
+        "moved": 5939,
+        "accepted": 5851,
+        "improvements": 0
+      },
+      {
+        "step": 11001,
+        "current": 12032,
+        "best": 9216,
+        "moved": 6533,
+        "accepted": 6431,
+        "improvements": 0
+      },
+      {
+        "step": 12001,
+        "current": 12032,
+        "best": 9216,
+        "moved": 7123,
+        "accepted": 7011,
+        "improvements": 0
+      },
+      {
+        "step": 13001,
+        "current": 12032,
+        "best": 9216,
+        "moved": 7715,
+        "accepted": 7589,
+        "improvements": 0
+      },
+      {
+        "step": 14001,
+        "current": 12032,
+        "best": 9216,
+        "moved": 8296,
+        "accepted": 8160,
+        "improvements": 0
+      },
+      {
+        "step": 15001,
+        "current": 11904,
+        "best": 9216,
+        "moved": 8862,
+        "accepted": 8721,
+        "improvements": 0
+      },
+      {
+        "step": 16001,
+        "current": 11904,
+        "best": 9216,
+        "moved": 9430,
+        "accepted": 9274,
+        "improvements": 0
+      },
+      {
+        "step": 17001,
+        "current": 11904,
+        "best": 9216,
+        "moved": 10009,
+        "accepted": 9835,
+        "improvements": 0
+      },
+      {
+        "step": 18001,
+        "current": 11904,
+        "best": 9216,
+        "moved": 10584,
+        "accepted": 10393,
+        "improvements": 0
+      },
+      {
+        "step": 19001,
+        "current": 11904,
+        "best": 9216,
+        "moved": 11140,
+        "accepted": 10934,
+        "improvements": 0
+      },
+      {
+        "step": 20000,
+        "current": 11904,
+        "best": 9216,
+        "moved": 11723,
+        "accepted": 11507,
+        "improvements": 0
+      }
+    ],
+    "objective": "l1ub",
+    "l0_single": true,
+    "paper_score": true,
+    "failed_initializations": {
+      "depth": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度",
+      "critical": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+    },
+    "parameters": {
+      "T_initial": 460.8,
+      "T_final": 0.01,
+      "boundary_weight": 4,
+      "other_weight": 1
+    },
+    "scope": "DAG and buffer lifetimes; optional L0 exclusivity; no L1/UB capacity limits"
+  },
+  "Matmul_Case1": {
+    "nodes": 30976,
+    "edges": 55040,
+    "raw_initial_peaks": {
+      "id": 65536,
+      "greedy": 34816
+    },
+    "initial_peaks": {
+      "id": 65536,
+      "greedy": 34816
+    },
+    "compact": false,
+    "dfs_variants": false,
+    "dfs_root_trials": 0,
+    "chosen": "greedy",
+    "final_peak": 34816,
+    "per_type_peaks": {
+      "L0C": 256,
+      "L0A": 128,
+      "L0B": 128,
+      "L1": 34816
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 20000,
+    "trace": [
+      {
+        "step": 1,
+        "current": 34816,
+        "best": 34816,
+        "moved": 1,
+        "accepted": 1,
+        "improvements": 0
+      },
+      {
+        "step": 1001,
+        "current": 35456,
+        "best": 34816,
+        "moved": 615,
+        "accepted": 615,
+        "improvements": 0
+      },
+      {
+        "step": 2001,
+        "current": 36352,
+        "best": 34816,
+        "moved": 1251,
+        "accepted": 1251,
+        "improvements": 0
+      },
+      {
+        "step": 3001,
+        "current": 36992,
+        "best": 34816,
+        "moved": 1857,
+        "accepted": 1856,
+        "improvements": 0
+      },
+      {
+        "step": 4001,
+        "current": 37248,
+        "best": 34816,
+        "moved": 2451,
+        "accepted": 2445,
+        "improvements": 0
+      },
+      {
+        "step": 5001,
+        "current": 37504,
+        "best": 34816,
+        "moved": 3021,
+        "accepted": 3006,
+        "improvements": 0
+      },
+      {
+        "step": 6001,
+        "current": 37504,
+        "best": 34816,
+        "moved": 3647,
+        "accepted": 3628,
+        "improvements": 0
+      },
+      {
+        "step": 7001,
+        "current": 37632,
+        "best": 34816,
+        "moved": 4235,
+        "accepted": 4204,
+        "improvements": 0
+      },
+      {
+        "step": 8001,
+        "current": 37504,
+        "best": 34816,
+        "moved": 4803,
+        "accepted": 4750,
+        "improvements": 0
+      },
+      {
+        "step": 9001,
+        "current": 37504,
+        "best": 34816,
+        "moved": 5385,
+        "accepted": 5319,
+        "improvements": 0
+      },
+      {
+        "step": 10001,
+        "current": 37504,
+        "best": 34816,
+        "moved": 5994,
+        "accepted": 5907,
+        "improvements": 0
+      },
+      {
+        "step": 11001,
+        "current": 37504,
+        "best": 34816,
+        "moved": 6557,
+        "accepted": 6458,
+        "improvements": 0
+      },
+      {
+        "step": 12001,
+        "current": 37504,
+        "best": 34816,
+        "moved": 7119,
+        "accepted": 7003,
+        "improvements": 0
+      },
+      {
+        "step": 13001,
+        "current": 37504,
+        "best": 34816,
+        "moved": 7703,
+        "accepted": 7561,
+        "improvements": 0
+      },
+      {
+        "step": 14001,
+        "current": 37504,
+        "best": 34816,
+        "moved": 8292,
+        "accepted": 8128,
+        "improvements": 0
+      },
+      {
+        "step": 15001,
+        "current": 37504,
+        "best": 34816,
+        "moved": 8848,
+        "accepted": 8670,
+        "improvements": 0
+      },
+      {
+        "step": 16001,
+        "current": 37504,
+        "best": 34816,
+        "moved": 9404,
+        "accepted": 9207,
+        "improvements": 0
+      },
+      {
+        "step": 17001,
+        "current": 37504,
+        "best": 34816,
+        "moved": 9977,
+        "accepted": 9762,
+        "improvements": 0
+      },
+      {
+        "step": 18001,
+        "current": 37504,
+        "best": 34816,
+        "moved": 10545,
+        "accepted": 10315,
+        "improvements": 0
+      },
+      {
+        "step": 19001,
+        "current": 37504,
+        "best": 34816,
+        "moved": 11109,
+        "accepted": 10866,
+        "improvements": 0
+      },
+      {
+        "step": 20000,
+        "current": 37504,
+        "best": 34816,
+        "moved": 11667,
+        "accepted": 11414,
+        "improvements": 0
+      }
+    ],
+    "objective": "l1ub",
+    "l0_single": true,
+    "paper_score": true,
+    "failed_initializations": {
+      "depth": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度",
+      "critical": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+    },
+    "parameters": {
+      "T_initial": 1740.8000000000002,
+      "T_final": 0.01,
+      "boundary_weight": 4,
+      "other_weight": 1
+    },
+    "scope": "DAG and buffer lifetimes; optional L0 exclusivity; no L1/UB capacity limits"
+  }
+}

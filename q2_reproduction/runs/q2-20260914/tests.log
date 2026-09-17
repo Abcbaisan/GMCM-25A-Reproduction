@@ -1,0 +1,11 @@
+test_capacity_and_overlap_rejection (test_q2.Q2CriticalTests.test_capacity_and_overlap_rejection) ... ok
+test_copy_in_cost_and_reuse_barriers (test_q2.Q2CriticalTests.test_copy_in_cost_and_reuse_barriers) ... ok
+test_fragmentation_repack_is_real_and_paid (test_q2.Q2CriticalTests.test_fragmentation_repack_is_real_and_paid) ... ok
+test_nonresident_use_and_free_rejection (test_q2.Q2CriticalTests.test_nonresident_use_and_free_rejection) ... ok
+test_original_dependency_and_spill_row_order (test_q2.Q2CriticalTests.test_original_dependency_and_spill_row_order) ... ok
+test_repeated_spills_and_crossing_rejection (test_q2.Q2CriticalTests.test_repeated_spills_and_crossing_rejection) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.081s
+
+OK

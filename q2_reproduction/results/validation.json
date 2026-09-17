@@ -1,0 +1,326 @@
+{
+  "Conv_Case0": {
+    "validated": true,
+    "nodes": 2580,
+    "edges": 3869,
+    "buffers": 831,
+    "schedule_nodes": 2672,
+    "spill_pairs": 46,
+    "extra_data_movement": 47256,
+    "spill_pairs_by_type": {
+      "L1": 46,
+      "UB": 0,
+      "L0A": 0,
+      "L0B": 0,
+      "L0C": 0
+    },
+    "extra_data_by_type": {
+      "L1": 47256,
+      "UB": 0,
+      "L0A": 0,
+      "L0B": 0,
+      "L0C": 0
+    },
+    "peak_resident_by_type": {
+      "L1": 3984,
+      "UB": 0,
+      "L0A": 0,
+      "L0B": 96,
+      "L0C": 0
+    },
+    "peak_logical_by_type": {
+      "L1": 6912,
+      "UB": 0,
+      "L0A": 0,
+      "L0B": 96,
+      "L0C": 0
+    },
+    "address_high_water_by_type": {
+      "L1": 4032,
+      "UB": 0,
+      "L0A": 0,
+      "L0B": 96,
+      "L0C": 0
+    },
+    "spill_dependency_checks": 419,
+    "reuse_barrier_count": 1112,
+    "reused_address_units": 171075,
+    "capacities": {
+      "L1": 4096,
+      "UB": 1024,
+      "L0A": 256,
+      "L0B": 256,
+      "L0C": 512
+    }
+  },
+  "Conv_Case1": {
+    "validated": true,
+    "nodes": 36086,
+    "edges": 85653,
+    "buffers": 12013,
+    "schedule_nodes": 39536,
+    "spill_pairs": 1725,
+    "extra_data_movement": 55306,
+    "spill_pairs_by_type": {
+      "L1": 1725,
+      "UB": 0,
+      "L0A": 0,
+      "L0B": 0,
+      "L0C": 0
+    },
+    "extra_data_by_type": {
+      "L1": 55306,
+      "UB": 0,
+      "L0A": 0,
+      "L0B": 0,
+      "L0C": 0
+    },
+    "peak_resident_by_type": {
+      "L1": 4066,
+      "UB": 0,
+      "L0A": 0,
+      "L0B": 96,
+      "L0C": 0
+    },
+    "peak_logical_by_type": {
+      "L1": 11631,
+      "UB": 0,
+      "L0A": 0,
+      "L0B": 96,
+      "L0C": 0
+    },
+    "address_high_water_by_type": {
+      "L1": 4091,
+      "UB": 0,
+      "L0A": 0,
+      "L0B": 96,
+      "L0C": 0
+    },
+    "spill_dependency_checks": 41059,
+    "reuse_barrier_count": 15322,
+    "reused_address_units": 616054,
+    "capacities": {
+      "L1": 4096,
+      "UB": 1024,
+      "L0A": 256,
+      "L0B": 256,
+      "L0C": 512
+    }
+  },
+  "FlashAttention_Case0": {
+    "validated": true,
+    "nodes": 1716,
+    "edges": 2712,
+    "buffers": 572,
+    "schedule_nodes": 1762,
+    "spill_pairs": 23,
+    "extra_data_movement": 3620,
+    "spill_pairs_by_type": {
+      "L1": 0,
+      "UB": 23,
+      "L0A": 0,
+      "L0B": 0,
+      "L0C": 0
+    },
+    "extra_data_by_type": {
+      "L1": 0,
+      "UB": 3620,
+      "L0A": 0,
+      "L0B": 0,
+      "L0C": 0
+    },
+    "peak_resident_by_type": {
+      "L1": 3328,
+      "UB": 928,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256
+    },
+    "peak_logical_by_type": {
+      "L1": 3328,
+      "UB": 1426,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256
+    },
+    "address_high_water_by_type": {
+      "L1": 3328,
+      "UB": 928,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256
+    },
+    "spill_dependency_checks": 128,
+    "reuse_barrier_count": 628,
+    "reused_address_units": 61306,
+    "capacities": {
+      "L1": 4096,
+      "UB": 1024,
+      "L0A": 256,
+      "L0B": 256,
+      "L0C": 512
+    }
+  },
+  "FlashAttention_Case1": {
+    "validated": true,
+    "nodes": 6952,
+    "edges": 11184,
+    "buffers": 2328,
+    "schedule_nodes": 7376,
+    "spill_pairs": 212,
+    "extra_data_movement": 32852,
+    "spill_pairs_by_type": {
+      "L1": 33,
+      "UB": 179,
+      "L0A": 0,
+      "L0B": 0,
+      "L0C": 0
+    },
+    "extra_data_by_type": {
+      "L1": 8448,
+      "UB": 24404,
+      "L0A": 0,
+      "L0B": 0,
+      "L0C": 0
+    },
+    "peak_resident_by_type": {
+      "L1": 4096,
+      "UB": 936,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256
+    },
+    "peak_logical_by_type": {
+      "L1": 5376,
+      "UB": 2466,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256
+    },
+    "address_high_water_by_type": {
+      "L1": 4096,
+      "UB": 936,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256
+    },
+    "spill_dependency_checks": 1768,
+    "reuse_barrier_count": 2713,
+    "reused_address_units": 264082,
+    "capacities": {
+      "L1": 4096,
+      "UB": 1024,
+      "L0A": 256,
+      "L0B": 256,
+      "L0C": 512
+    }
+  },
+  "Matmul_Case0": {
+    "validated": true,
+    "nodes": 4160,
+    "edges": 7104,
+    "buffers": 1216,
+    "schedule_nodes": 4704,
+    "spill_pairs": 272,
+    "extra_data_movement": 34816,
+    "spill_pairs_by_type": {
+      "L1": 272,
+      "UB": 0,
+      "L0A": 0,
+      "L0B": 0,
+      "L0C": 0
+    },
+    "extra_data_by_type": {
+      "L1": 34816,
+      "UB": 0,
+      "L0A": 0,
+      "L0B": 0,
+      "L0C": 0
+    },
+    "peak_resident_by_type": {
+      "L1": 4096,
+      "UB": 0,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256
+    },
+    "peak_logical_by_type": {
+      "L1": 9216,
+      "UB": 0,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256
+    },
+    "address_high_water_by_type": {
+      "L1": 4096,
+      "UB": 0,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256
+    },
+    "spill_dependency_checks": 6208,
+    "reuse_barrier_count": 1453,
+    "reused_address_units": 194048,
+    "capacities": {
+      "L1": 4096,
+      "UB": 1024,
+      "L0A": 256,
+      "L0B": 256,
+      "L0C": 512
+    }
+  },
+  "Matmul_Case1": {
+    "validated": true,
+    "nodes": 30976,
+    "edges": 55040,
+    "buffers": 8960,
+    "schedule_nodes": 38176,
+    "spill_pairs": 3600,
+    "extra_data_movement": 460800,
+    "spill_pairs_by_type": {
+      "L1": 3600,
+      "UB": 0,
+      "L0A": 0,
+      "L0B": 0,
+      "L0C": 0
+    },
+    "extra_data_by_type": {
+      "L1": 460800,
+      "UB": 0,
+      "L0A": 0,
+      "L0B": 0,
+      "L0C": 0
+    },
+    "peak_resident_by_type": {
+      "L1": 4096,
+      "UB": 0,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256
+    },
+    "peak_logical_by_type": {
+      "L1": 34816,
+      "UB": 0,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256
+    },
+    "address_high_water_by_type": {
+      "L1": 4096,
+      "UB": 0,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256
+    },
+    "spill_dependency_checks": 170140,
+    "reuse_barrier_count": 12525,
+    "reused_address_units": 1635840,
+    "capacities": {
+      "L1": 4096,
+      "UB": 1024,
+      "L0A": 256,
+      "L0B": 256,
+      "L0C": 512
+    }
+  }
+}

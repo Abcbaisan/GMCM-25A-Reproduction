@@ -1,0 +1,12 @@
+{
+  "primary_domain": "mathematical_modeling",
+  "project_type": "paper_replication",
+  "checked_knowledge_cards": 13,
+  "canonical_pages": 3,
+  "protected_files_unchanged": 113,
+  "metadata_paths_and_project_links": "passed",
+  "word_visual_review": {
+    "mathematical_modeling": 8,
+    "machine_learning": 1
+  }
+}

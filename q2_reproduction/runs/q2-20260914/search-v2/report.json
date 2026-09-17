@@ -1,0 +1,988 @@
+{
+  "Conv_Case0": {
+    "strategy": "snake-width-2-short-False-lanes-normal",
+    "additional_transfer": 46872,
+    "spill_count": 58,
+    "trials": [
+      {
+        "strategy": "q1-final",
+        "transfer": 47256,
+        "spills": 46,
+        "valid": true
+      },
+      {
+        "strategy": "dfs_id_asc",
+        "transfer": 169654,
+        "spills": 100,
+        "valid": true
+      },
+      {
+        "strategy": "dfs_id_desc",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "dfs_size_asc",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "dfs_size_desc",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L0C-reverse-False",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L0C-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-UB-reverse-False",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-UB-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L1-reverse-False",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L1-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L0A-reverse-False",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L0A-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L0B-reverse-False",
+        "transfer": 67992,
+        "spills": 65,
+        "valid": true
+      },
+      {
+        "strategy": "free-L0B-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-normal",
+        "transfer": 46872,
+        "spills": 58,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      }
+    ]
+  },
+  "Conv_Case1": {
+    "strategy": "dfs_id_desc",
+    "additional_transfer": 44746,
+    "spill_count": 1348,
+    "trials": [
+      {
+        "strategy": "q1-final",
+        "transfer": 57930,
+        "spills": 1900,
+        "valid": true
+      },
+      {
+        "strategy": "dfs_id_asc",
+        "transfer": 122728,
+        "spills": 1958,
+        "valid": true
+      },
+      {
+        "strategy": "dfs_id_desc",
+        "transfer": 44746,
+        "spills": 1348,
+        "valid": true
+      },
+      {
+        "strategy": "dfs_size_asc",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "dfs_size_desc",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L0C-reverse-False",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L0C-reverse-True",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-UB-reverse-False",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-UB-reverse-True",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L1-reverse-False",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L1-reverse-True",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L0A-reverse-False",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L0A-reverse-True",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L0B-reverse-False",
+        "transfer": 75754,
+        "spills": 2114,
+        "valid": true
+      },
+      {
+        "strategy": "free-L0B-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-normal",
+        "transfer": 75546,
+        "spills": 2116,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      }
+    ]
+  },
+  "FlashAttention_Case0": {
+    "strategy": "q1-final",
+    "additional_transfer": 3624,
+    "spill_count": 24,
+    "trials": [
+      {
+        "strategy": "q1-final",
+        "transfer": 3624,
+        "spills": 24,
+        "valid": true
+      },
+      {
+        "strategy": "dfs_id_asc",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "dfs_id_desc",
+        "transfer": 6208,
+        "spills": 40,
+        "valid": true
+      },
+      {
+        "strategy": "dfs_size_asc",
+        "transfer": 13400,
+        "spills": 74,
+        "valid": true
+      },
+      {
+        "strategy": "dfs_size_desc",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L0C-reverse-False",
+        "transfer": 18244,
+        "spills": 88,
+        "valid": true
+      },
+      {
+        "strategy": "free-L0C-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-UB-reverse-False",
+        "transfer": 9328,
+        "spills": 64,
+        "valid": true
+      },
+      {
+        "strategy": "free-UB-reverse-True",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L1-reverse-False",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L1-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L0A-reverse-False",
+        "transfer": 9808,
+        "spills": 58,
+        "valid": true
+      },
+      {
+        "strategy": "free-L0A-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L0B-reverse-False",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L0B-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-normal",
+        "transfer": 6208,
+        "spills": 40,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      }
+    ]
+  },
+  "FlashAttention_Case1": {
+    "strategy": "q1-final",
+    "additional_transfer": 32880,
+    "spill_count": 219,
+    "trials": [
+      {
+        "strategy": "q1-final",
+        "transfer": 32880,
+        "spills": 219,
+        "valid": true
+      },
+      {
+        "strategy": "dfs_id_asc",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "dfs_id_desc",
+        "transfer": 86944,
+        "spills": 505,
+        "valid": true
+      },
+      {
+        "strategy": "dfs_size_asc",
+        "transfer": 85336,
+        "spills": 481,
+        "valid": true
+      },
+      {
+        "strategy": "dfs_size_desc",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L0C-reverse-False",
+        "transfer": 96312,
+        "spills": 516,
+        "valid": true
+      },
+      {
+        "strategy": "free-L0C-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-UB-reverse-False",
+        "transfer": 59468,
+        "spills": 377,
+        "valid": true
+      },
+      {
+        "strategy": "free-UB-reverse-True",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L1-reverse-False",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L1-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L0A-reverse-False",
+        "transfer": 54192,
+        "spills": 318,
+        "valid": true
+      },
+      {
+        "strategy": "free-L0A-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L0B-reverse-False",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L0B-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-normal",
+        "transfer": 86944,
+        "spills": 505,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      }
+    ]
+  },
+  "Matmul_Case0": {
+    "strategy": "snake-width-3-short-False-lanes-normal",
+    "additional_transfer": 12416,
+    "spill_count": 97,
+    "trials": [
+      {
+        "strategy": "q1-final",
+        "transfer": 34816,
+        "spills": 272,
+        "valid": true
+      },
+      {
+        "strategy": "dfs_id_asc",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "dfs_id_desc",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "dfs_size_asc",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "dfs_size_desc",
+        "transfer": 34944,
+        "spills": 273,
+        "valid": true
+      },
+      {
+        "strategy": "free-L0C-reverse-False",
+        "transfer": 34944,
+        "spills": 273,
+        "valid": true
+      },
+      {
+        "strategy": "free-L0C-reverse-True",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-UB-reverse-False",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-UB-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L1-reverse-False",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L1-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L0A-reverse-False",
+        "transfer": 47360,
+        "spills": 370,
+        "valid": true
+      },
+      {
+        "strategy": "free-L0A-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L0B-reverse-False",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L0B-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-normal",
+        "transfer": 15744,
+        "spills": 123,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-reverse",
+        "transfer": 15744,
+        "spills": 123,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-alternate",
+        "transfer": 15744,
+        "spills": 123,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-normal",
+        "transfer": 12416,
+        "spills": 97,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-reverse",
+        "transfer": 12416,
+        "spills": 97,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-alternate",
+        "transfer": 12416,
+        "spills": 97,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-normal",
+        "transfer": 12544,
+        "spills": 98,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-reverse",
+        "transfer": 12544,
+        "spills": 98,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-alternate",
+        "transfer": 12544,
+        "spills": 98,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-normal",
+        "transfer": 19712,
+        "spills": 154,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-reverse",
+        "transfer": 19712,
+        "spills": 154,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-alternate",
+        "transfer": 13568,
+        "spills": 106,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      }
+    ]
+  },
+  "Matmul_Case1": {
+    "strategy": "snake-width-3-short-False-lanes-alternate",
+    "additional_transfer": 316672,
+    "spill_count": 2474,
+    "trials": [
+      {
+        "strategy": "q1-final",
+        "transfer": 460800,
+        "spills": 3600,
+        "valid": true
+      },
+      {
+        "strategy": "dfs_id_asc",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "dfs_id_desc",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "dfs_size_asc",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "dfs_size_desc",
+        "transfer": 460800,
+        "spills": 3600,
+        "valid": true
+      },
+      {
+        "strategy": "free-L0C-reverse-False",
+        "transfer": 460800,
+        "spills": 3600,
+        "valid": true
+      },
+      {
+        "strategy": "free-L0C-reverse-True",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-UB-reverse-False",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-UB-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L1-reverse-False",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L1-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L0A-reverse-False",
+        "transfer": 520448,
+        "spills": 4066,
+        "valid": true
+      },
+      {
+        "strategy": "free-L0A-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "free-L0B-reverse-False",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "free-L0B-reverse-True",
+        "valid": false,
+        "error": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-normal",
+        "transfer": 445440,
+        "spills": 3480,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-reverse",
+        "transfer": 445440,
+        "spills": 3480,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-2-short-False-lanes-alternate",
+        "transfer": 330752,
+        "spills": 2584,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-2-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-normal",
+        "transfer": 460800,
+        "spills": 3600,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-reverse",
+        "transfer": 460800,
+        "spills": 3600,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-3-short-False-lanes-alternate",
+        "transfer": 316672,
+        "spills": 2474,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-normal",
+        "transfer": 460800,
+        "spills": 3600,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-reverse",
+        "transfer": 460800,
+        "spills": 3600,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-3-short-True-lanes-alternate",
+        "transfer": 316800,
+        "spills": 2475,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-normal",
+        "transfer": 460800,
+        "spills": 3600,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-reverse",
+        "transfer": 460800,
+        "spills": 3600,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-4-short-False-lanes-alternate",
+        "transfer": 345600,
+        "spills": 2700,
+        "valid": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-normal",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-reverse",
+        "duplicate_schedule": true
+      },
+      {
+        "strategy": "snake-width-4-short-True-lanes-alternate",
+        "duplicate_schedule": true
+      }
+    ]
+  }
+}

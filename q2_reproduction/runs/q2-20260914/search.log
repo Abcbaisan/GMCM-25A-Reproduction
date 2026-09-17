@@ -1,0 +1,12 @@
+Conv_Case0 q1-final 47256 46
+Traceback (most recent call last):
+  File "D:\pack\Codex\2026-09-14\referenced-chatgpt-conversation-this-is-an-2\outputs\PersonalResearchSystem\papers\npu-scheduling-2025-a\code\search_schedules.py", line 156, in <module>
+    main()
+  File "D:\pack\Codex\2026-09-14\referenced-chatgpt-conversation-this-is-an-2\outputs\PersonalResearchSystem\papers\npu-scheduling-2025-a\code\search_schedules.py", line 129, in main
+    for label, order in candidates(graph, original):
+  File "D:\pack\Codex\2026-09-14\referenced-chatgpt-conversation-this-is-an-2\outputs\PersonalResearchSystem\papers\npu-scheduling-2025-a\code\search_schedules.py", line 95, in candidates
+    yield strategy, graph.compact(graph.initial(strategy))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pack\Codex\2026-09-14\referenced-chatgpt-conversation-this-is-an-2\outputs\PersonalResearchSystem\papers\npu-scheduling-2025-a\code\q1.py", line 111, in initial
+    raise ValueError('�޺Ϸ������ڵ㣺ͼ���л���ǰL0ѡ��������������ǿ�е���')
+ValueError: �޺Ϸ������ڵ㣺ͼ���л���ǰL0ѡ��������������ǿ�е���

@@ -1,0 +1,37 @@
+{
+  "experiment_id": "E2-20260914",
+  "python": "D:\\Anaconda3\\envs\\FirstPythonEnv\\python.exe",
+  "version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "cwd": "D:\\pack\\Codex\\2026-09-14\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\PersonalResearchSystem\\papers\\npu-scheduling-2025-a",
+  "random_seed": null,
+  "split": "six supplied instances; no training",
+  "source_files": [
+    {
+      "path": "D:\\BaiduNetdiskDownload\\华为杯\\真题\\2025年年中国研究生数学建模竞赛赛题\\A题\\通用神经网络处理器下的核内调度问题.docx",
+      "sha256": "dc4670c67f3a06721cfa466663fa87925a0aa67cb89e2528920790299ee0b395"
+    },
+    {
+      "path": "D:\\BaiduNetdiskDownload\\华为杯\\真题\\2025年年中国研究生数学建模竞赛赛题\\A题\\通用神经网络处理器下的核内调度问题附件.zip",
+      "sha256": "351e924379c58792b2c21b7ee7694001ef64701be3afb919dd1fdeaeff9f88b6"
+    },
+    {
+      "path": "D:\\BaiduNetdiskDownload\\华为杯\\优秀论文\\【02】2025优秀论文\\2025年研究生数学建模竞赛优秀论文选\\A题优秀论文\\A题-1-通用神经网络处理器下的核内调度问题.pdf",
+      "sha256": "1ba58ee48e42e870f65ee3ab58d9683ac4d0a0dadd8798eb84127dbda5778042"
+    }
+  ],
+  "code_sha256": {
+    "q1.py": "26daf506753b09175396026f1be370354d37c77b1a8b5c34cda3c6b08b42b9f7",
+    "q2.py": "5880766e491fa5c096770d1c0c3cf0ff829b5f11fb632cc78d036fb7270a1382",
+    "search_schedules.py": "795ab3a7fee51d381ab14e49c2df91af48c67cf2fa6482ec7996a2dc579b68dd",
+    "test_q2.py": "5375625eab6b6cd34165598bd788093c7a408aa284d736d13b200daf84b7ab83",
+    "verify_q2.py": "f0bcf63b2facb6d81e11d969c115bd1eff5e8e9210652dd991b8b6934fd13779"
+  },
+  "commands": [
+    "python -m unittest discover -s code -p test_q2.py -v",
+    "python code/q2.py --schedule-dir reproduction/q1_inputs --out reproduction/baseline",
+    "python code/search_schedules.py --schedule-dir reproduction/q1_inputs --out reproduction/search-v2",
+    "python code/q2.py --schedule-dir reproduction/search-v2/input_schedules --out reproduction/optimized",
+    "python code/verify_q2.py --results reproduction/optimized"
+  ],
+  "revision": "v2: skip invalid generated schedules and correct custom DFS rank dispatch"
+}

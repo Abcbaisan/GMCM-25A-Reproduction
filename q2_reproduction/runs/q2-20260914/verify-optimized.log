@@ -1,0 +1,6 @@
+Conv_Case0: validated=True, spills=58, extra_data=46872
+Conv_Case1: validated=True, spills=1374, extra_data=44242
+FlashAttention_Case0: validated=True, spills=23, extra_data=3620
+FlashAttention_Case1: validated=True, spills=212, extra_data=32852
+Matmul_Case0: validated=True, spills=97, extra_data=12416
+Matmul_Case1: validated=True, spills=2474, extra_data=316672

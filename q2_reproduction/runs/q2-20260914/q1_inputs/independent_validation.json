@@ -1,0 +1,26 @@
+{
+  "Conv_Case0": {
+    "all": 6984,
+    "l1ub": 6912
+  },
+  "Conv_Case1": {
+    "all": 11639,
+    "l1ub": 11631
+  },
+  "FlashAttention_Case0": {
+    "all": 4882,
+    "l1ub": 4498
+  },
+  "FlashAttention_Case1": {
+    "all": 7970,
+    "l1ub": 7586
+  },
+  "Matmul_Case0": {
+    "all": 9728,
+    "l1ub": 9216
+  },
+  "Matmul_Case1": {
+    "all": 35328,
+    "l1ub": 34816
+  }
+}

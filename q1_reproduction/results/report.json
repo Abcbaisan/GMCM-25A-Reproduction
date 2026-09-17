@@ -1,0 +1,774 @@
+{
+  "Conv_Case0": {
+    "nodes": 2580,
+    "edges": 3869,
+    "initial_peaks": {
+      "id": 150807,
+      "greedy": 62778,
+      "depth": 115072,
+      "critical": 17210
+    },
+    "chosen": "critical",
+    "final_peak": 17210,
+    "per_type_peaks": {
+      "L1": 16274,
+      "L0B": 1000
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 2000,
+    "trace": [
+      {
+        "step": 1,
+        "current": 17210,
+        "best": 17210
+      },
+      {
+        "step": 101,
+        "current": 18930,
+        "best": 17210
+      },
+      {
+        "step": 201,
+        "current": 19734,
+        "best": 17210
+      },
+      {
+        "step": 301,
+        "current": 20798,
+        "best": 17210
+      },
+      {
+        "step": 401,
+        "current": 21390,
+        "best": 17210
+      },
+      {
+        "step": 501,
+        "current": 21632,
+        "best": 17210
+      },
+      {
+        "step": 601,
+        "current": 21724,
+        "best": 17210
+      },
+      {
+        "step": 701,
+        "current": 21608,
+        "best": 17210
+      },
+      {
+        "step": 801,
+        "current": 21491,
+        "best": 17210
+      },
+      {
+        "step": 901,
+        "current": 21494,
+        "best": 17210
+      },
+      {
+        "step": 1001,
+        "current": 21497,
+        "best": 17210
+      },
+      {
+        "step": 1101,
+        "current": 21497,
+        "best": 17210
+      },
+      {
+        "step": 1201,
+        "current": 21497,
+        "best": 17210
+      },
+      {
+        "step": 1301,
+        "current": 21465,
+        "best": 17210
+      },
+      {
+        "step": 1401,
+        "current": 21465,
+        "best": 17210
+      },
+      {
+        "step": 1501,
+        "current": 21465,
+        "best": 17210
+      },
+      {
+        "step": 1601,
+        "current": 21361,
+        "best": 17210
+      },
+      {
+        "step": 1701,
+        "current": 21361,
+        "best": 17210
+      },
+      {
+        "step": 1801,
+        "current": 21360,
+        "best": 17210
+      },
+      {
+        "step": 1901,
+        "current": 21356,
+        "best": 17210
+      },
+      {
+        "step": 2000,
+        "current": 21347,
+        "best": 17210
+      }
+    ],
+    "scope": "all cache types; DAG and buffer lifetime constraints; no added L0 exclusivity"
+  },
+  "Conv_Case1": {
+    "nodes": 36086,
+    "edges": 85653,
+    "initial_peaks": {
+      "id": 570168,
+      "greedy": 476790,
+      "depth": 549054,
+      "critical": 91016
+    },
+    "chosen": "critical",
+    "final_peak": 91016,
+    "per_type_peaks": {
+      "L1": 85832,
+      "L0B": 6912
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 2000,
+    "trace": [
+      {
+        "step": 1,
+        "current": 91016,
+        "best": 91016
+      },
+      {
+        "step": 101,
+        "current": 91224,
+        "best": 91016
+      },
+      {
+        "step": 201,
+        "current": 91392,
+        "best": 91016
+      },
+      {
+        "step": 301,
+        "current": 91520,
+        "best": 91016
+      },
+      {
+        "step": 401,
+        "current": 91828,
+        "best": 91016
+      },
+      {
+        "step": 501,
+        "current": 91980,
+        "best": 91016
+      },
+      {
+        "step": 601,
+        "current": 92096,
+        "best": 91016
+      },
+      {
+        "step": 701,
+        "current": 92184,
+        "best": 91016
+      },
+      {
+        "step": 801,
+        "current": 92192,
+        "best": 91016
+      },
+      {
+        "step": 901,
+        "current": 92196,
+        "best": 91016
+      },
+      {
+        "step": 1001,
+        "current": 92196,
+        "best": 91016
+      },
+      {
+        "step": 1101,
+        "current": 92200,
+        "best": 91016
+      },
+      {
+        "step": 1201,
+        "current": 92200,
+        "best": 91016
+      },
+      {
+        "step": 1301,
+        "current": 92200,
+        "best": 91016
+      },
+      {
+        "step": 1401,
+        "current": 92193,
+        "best": 91016
+      },
+      {
+        "step": 1501,
+        "current": 92065,
+        "best": 91016
+      },
+      {
+        "step": 1601,
+        "current": 92065,
+        "best": 91016
+      },
+      {
+        "step": 1701,
+        "current": 92065,
+        "best": 91016
+      },
+      {
+        "step": 1801,
+        "current": 92065,
+        "best": 91016
+      },
+      {
+        "step": 1901,
+        "current": 92065,
+        "best": 91016
+      },
+      {
+        "step": 2000,
+        "current": 92029,
+        "best": 91016
+      }
+    ],
+    "scope": "all cache types; DAG and buffer lifetime constraints; no added L0 exclusivity"
+  },
+  "FlashAttention_Case0": {
+    "nodes": 1716,
+    "edges": 2712,
+    "initial_peaks": {
+      "id": 64264,
+      "greedy": 42248,
+      "depth": 49180,
+      "critical": 13000
+    },
+    "chosen": "critical",
+    "final_peak": 13000,
+    "per_type_peaks": {
+      "L1": 3072,
+      "L0A": 2048,
+      "L0B": 2048,
+      "L0C": 4096,
+      "UB": 5288
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 2000,
+    "trace": [
+      {
+        "step": 1,
+        "current": 13000,
+        "best": 13000
+      },
+      {
+        "step": 101,
+        "current": 15704,
+        "best": 13000
+      },
+      {
+        "step": 201,
+        "current": 17650,
+        "best": 13000
+      },
+      {
+        "step": 301,
+        "current": 18574,
+        "best": 13000
+      },
+      {
+        "step": 401,
+        "current": 19370,
+        "best": 13000
+      },
+      {
+        "step": 501,
+        "current": 19508,
+        "best": 13000
+      },
+      {
+        "step": 601,
+        "current": 19316,
+        "best": 13000
+      },
+      {
+        "step": 701,
+        "current": 19186,
+        "best": 13000
+      },
+      {
+        "step": 801,
+        "current": 18934,
+        "best": 13000
+      },
+      {
+        "step": 901,
+        "current": 18692,
+        "best": 13000
+      },
+      {
+        "step": 1001,
+        "current": 18442,
+        "best": 13000
+      },
+      {
+        "step": 1101,
+        "current": 18440,
+        "best": 13000
+      },
+      {
+        "step": 1201,
+        "current": 18178,
+        "best": 13000
+      },
+      {
+        "step": 1301,
+        "current": 18178,
+        "best": 13000
+      },
+      {
+        "step": 1401,
+        "current": 18128,
+        "best": 13000
+      },
+      {
+        "step": 1501,
+        "current": 18110,
+        "best": 13000
+      },
+      {
+        "step": 1601,
+        "current": 18110,
+        "best": 13000
+      },
+      {
+        "step": 1701,
+        "current": 18110,
+        "best": 13000
+      },
+      {
+        "step": 1801,
+        "current": 18092,
+        "best": 13000
+      },
+      {
+        "step": 1901,
+        "current": 17938,
+        "best": 13000
+      },
+      {
+        "step": 2000,
+        "current": 17934,
+        "best": 13000
+      }
+    ],
+    "scope": "all cache types; DAG and buffer lifetime constraints; no added L0 exclusivity"
+  },
+  "FlashAttention_Case1": {
+    "nodes": 6952,
+    "edges": 11184,
+    "initial_peaks": {
+      "id": 248976,
+      "greedy": 171664,
+      "depth": 215828,
+      "critical": 39312
+    },
+    "chosen": "critical",
+    "final_peak": 39312,
+    "per_type_peaks": {
+      "L1": 9728,
+      "L0A": 6144,
+      "L0B": 6144,
+      "L0C": 12288,
+      "UB": 15680
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 2000,
+    "trace": [
+      {
+        "step": 1,
+        "current": 39312,
+        "best": 39312
+      },
+      {
+        "step": 101,
+        "current": 41372,
+        "best": 39312
+      },
+      {
+        "step": 201,
+        "current": 43790,
+        "best": 39312
+      },
+      {
+        "step": 301,
+        "current": 45626,
+        "best": 39312
+      },
+      {
+        "step": 401,
+        "current": 47308,
+        "best": 39312
+      },
+      {
+        "step": 501,
+        "current": 48110,
+        "best": 39312
+      },
+      {
+        "step": 601,
+        "current": 48296,
+        "best": 39312
+      },
+      {
+        "step": 701,
+        "current": 48304,
+        "best": 39312
+      },
+      {
+        "step": 801,
+        "current": 48330,
+        "best": 39312
+      },
+      {
+        "step": 901,
+        "current": 48350,
+        "best": 39312
+      },
+      {
+        "step": 1001,
+        "current": 48350,
+        "best": 39312
+      },
+      {
+        "step": 1101,
+        "current": 48356,
+        "best": 39312
+      },
+      {
+        "step": 1201,
+        "current": 48100,
+        "best": 39312
+      },
+      {
+        "step": 1301,
+        "current": 48102,
+        "best": 39312
+      },
+      {
+        "step": 1401,
+        "current": 48098,
+        "best": 39312
+      },
+      {
+        "step": 1501,
+        "current": 48088,
+        "best": 39312
+      },
+      {
+        "step": 1601,
+        "current": 48088,
+        "best": 39312
+      },
+      {
+        "step": 1701,
+        "current": 48068,
+        "best": 39312
+      },
+      {
+        "step": 1801,
+        "current": 47972,
+        "best": 39312
+      },
+      {
+        "step": 1901,
+        "current": 47914,
+        "best": 39312
+      },
+      {
+        "step": 2000,
+        "current": 47898,
+        "best": 39312
+      }
+    ],
+    "scope": "all cache types; DAG and buffer lifetime constraints; no added L0 exclusivity"
+  },
+  "Matmul_Case0": {
+    "nodes": 4160,
+    "edges": 7104,
+    "initial_peaks": {
+      "id": 163840,
+      "greedy": 131328,
+      "depth": 131200,
+      "critical": 53248
+    },
+    "chosen": "critical",
+    "final_peak": 53248,
+    "per_type_peaks": {
+      "L1": 4096,
+      "L0A": 16384,
+      "L0B": 16384,
+      "L0C": 16384
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 2000,
+    "trace": [
+      {
+        "step": 1,
+        "current": 53248,
+        "best": 53248
+      },
+      {
+        "step": 101,
+        "current": 55040,
+        "best": 53248
+      },
+      {
+        "step": 201,
+        "current": 57216,
+        "best": 53248
+      },
+      {
+        "step": 301,
+        "current": 58624,
+        "best": 53248
+      },
+      {
+        "step": 401,
+        "current": 60672,
+        "best": 53248
+      },
+      {
+        "step": 501,
+        "current": 61696,
+        "best": 53248
+      },
+      {
+        "step": 601,
+        "current": 62080,
+        "best": 53248
+      },
+      {
+        "step": 701,
+        "current": 62208,
+        "best": 53248
+      },
+      {
+        "step": 801,
+        "current": 62208,
+        "best": 53248
+      },
+      {
+        "step": 901,
+        "current": 62208,
+        "best": 53248
+      },
+      {
+        "step": 1001,
+        "current": 62208,
+        "best": 53248
+      },
+      {
+        "step": 1101,
+        "current": 62208,
+        "best": 53248
+      },
+      {
+        "step": 1201,
+        "current": 62080,
+        "best": 53248
+      },
+      {
+        "step": 1301,
+        "current": 61952,
+        "best": 53248
+      },
+      {
+        "step": 1401,
+        "current": 61952,
+        "best": 53248
+      },
+      {
+        "step": 1501,
+        "current": 61952,
+        "best": 53248
+      },
+      {
+        "step": 1601,
+        "current": 61952,
+        "best": 53248
+      },
+      {
+        "step": 1701,
+        "current": 61952,
+        "best": 53248
+      },
+      {
+        "step": 1801,
+        "current": 61952,
+        "best": 53248
+      },
+      {
+        "step": 1901,
+        "current": 61952,
+        "best": 53248
+      },
+      {
+        "step": 2000,
+        "current": 61952,
+        "best": 53248
+      }
+    ],
+    "scope": "all cache types; DAG and buffer lifetime constraints; no added L0 exclusivity"
+  },
+  "Matmul_Case1": {
+    "nodes": 30976,
+    "edges": 55040,
+    "initial_peaks": {
+      "id": 1179648,
+      "greedy": 1048832,
+      "depth": 1048704,
+      "critical": 204800
+    },
+    "chosen": "critical",
+    "final_peak": 204800,
+    "per_type_peaks": {
+      "L1": 8192,
+      "L0A": 65536,
+      "L0B": 65536,
+      "L0C": 65536
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 2000,
+    "trace": [
+      {
+        "step": 1,
+        "current": 204928,
+        "best": 204800
+      },
+      {
+        "step": 101,
+        "current": 207744,
+        "best": 204800
+      },
+      {
+        "step": 201,
+        "current": 210432,
+        "best": 204800
+      },
+      {
+        "step": 301,
+        "current": 213632,
+        "best": 204800
+      },
+      {
+        "step": 401,
+        "current": 216448,
+        "best": 204800
+      },
+      {
+        "step": 501,
+        "current": 218112,
+        "best": 204800
+      },
+      {
+        "step": 601,
+        "current": 220544,
+        "best": 204800
+      },
+      {
+        "step": 701,
+        "current": 221056,
+        "best": 204800
+      },
+      {
+        "step": 801,
+        "current": 221568,
+        "best": 204800
+      },
+      {
+        "step": 901,
+        "current": 221440,
+        "best": 204800
+      },
+      {
+        "step": 1001,
+        "current": 221440,
+        "best": 204800
+      },
+      {
+        "step": 1101,
+        "current": 221440,
+        "best": 204800
+      },
+      {
+        "step": 1201,
+        "current": 221440,
+        "best": 204800
+      },
+      {
+        "step": 1301,
+        "current": 221440,
+        "best": 204800
+      },
+      {
+        "step": 1401,
+        "current": 221440,
+        "best": 204800
+      },
+      {
+        "step": 1501,
+        "current": 221440,
+        "best": 204800
+      },
+      {
+        "step": 1601,
+        "current": 221440,
+        "best": 204800
+      },
+      {
+        "step": 1701,
+        "current": 221440,
+        "best": 204800
+      },
+      {
+        "step": 1801,
+        "current": 221440,
+        "best": 204800
+      },
+      {
+        "step": 1901,
+        "current": 221440,
+        "best": 204800
+      },
+      {
+        "step": 2000,
+        "current": 221440,
+        "best": 204800
+      }
+    ],
+    "scope": "all cache types; DAG and buffer lifetime constraints; no added L0 exclusivity"
+  }
+}

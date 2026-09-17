@@ -1,0 +1,986 @@
+{
+  "Conv_Case0": {
+    "policy": "farthest",
+    "placement": "best-fit",
+    "additional_transfer": 46872,
+    "spill_count": 58,
+    "capacity_failures": 26,
+    "fragmentation_failures": 6,
+    "repack_count": 0,
+    "source_schedule": "D:\\pack\\Codex\\2026-09-14\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\PersonalResearchSystem\\papers\\npu-scheduling-2025-a\\reproduction\\search-v2\\input_schedules\\Conv_Case0_schedule.txt",
+    "original_nodes": 2580,
+    "expanded_nodes": 2696,
+    "preserves_original_order": true,
+    "capacities": {
+      "L1": 4096,
+      "UB": 1024,
+      "L0A": 256,
+      "L0B": 256,
+      "L0C": 512
+    },
+    "trials": [
+      {
+        "policy": "paper-small",
+        "placement": "best-fit",
+        "additional_transfer": 69146,
+        "spill_count": 78,
+        "capacity_failures": 44,
+        "fragmentation_failures": 4,
+        "repack_count": 0,
+        "seconds": 0.524,
+        "valid": true
+      },
+      {
+        "policy": "paper-small",
+        "placement": "first-fit",
+        "additional_transfer": 74918,
+        "spill_count": 96,
+        "capacity_failures": 38,
+        "fragmentation_failures": 17,
+        "repack_count": 0,
+        "seconds": 0.5114,
+        "valid": true
+      },
+      {
+        "policy": "paper-large",
+        "placement": "best-fit",
+        "additional_transfer": 122886,
+        "spill_count": 85,
+        "capacity_failures": 46,
+        "fragmentation_failures": 12,
+        "repack_count": 2,
+        "seconds": 0.5719,
+        "valid": true
+      },
+      {
+        "policy": "paper-large",
+        "placement": "first-fit",
+        "additional_transfer": 118272,
+        "spill_count": 77,
+        "capacity_failures": 38,
+        "fragmentation_failures": 10,
+        "repack_count": 3,
+        "seconds": 0.5551,
+        "valid": true
+      },
+      {
+        "policy": "farthest",
+        "placement": "best-fit",
+        "additional_transfer": 46872,
+        "spill_count": 58,
+        "capacity_failures": 26,
+        "fragmentation_failures": 6,
+        "repack_count": 0,
+        "seconds": 0.4806,
+        "valid": true
+      },
+      {
+        "policy": "farthest",
+        "placement": "first-fit",
+        "additional_transfer": 57638,
+        "spill_count": 75,
+        "capacity_failures": 25,
+        "fragmentation_failures": 12,
+        "repack_count": 0,
+        "seconds": 0.4919,
+        "valid": true
+      },
+      {
+        "policy": "cost-distance",
+        "placement": "best-fit",
+        "additional_transfer": 46872,
+        "spill_count": 58,
+        "capacity_failures": 26,
+        "fragmentation_failures": 6,
+        "repack_count": 0,
+        "seconds": 0.4763,
+        "valid": true
+      },
+      {
+        "policy": "cost-distance",
+        "placement": "first-fit",
+        "additional_transfer": 57638,
+        "spill_count": 75,
+        "capacity_failures": 25,
+        "fragmentation_failures": 12,
+        "repack_count": 0,
+        "seconds": 0.4813,
+        "valid": true
+      }
+    ],
+    "validation": {
+      "validated": true,
+      "nodes": 2580,
+      "edges": 3869,
+      "buffers": 831,
+      "schedule_nodes": 2696,
+      "spill_pairs": 58,
+      "extra_data_movement": 46872,
+      "spill_pairs_by_type": {
+        "L1": 58,
+        "UB": 0,
+        "L0A": 0,
+        "L0B": 0,
+        "L0C": 0
+      },
+      "extra_data_by_type": {
+        "L1": 46872,
+        "UB": 0,
+        "L0A": 0,
+        "L0B": 0,
+        "L0C": 0
+      },
+      "peak_resident_by_type": {
+        "L1": 3987,
+        "UB": 0,
+        "L0A": 0,
+        "L0B": 96,
+        "L0C": 0
+      },
+      "peak_logical_by_type": {
+        "L1": 6912,
+        "UB": 0,
+        "L0A": 0,
+        "L0B": 96,
+        "L0C": 0
+      },
+      "address_high_water_by_type": {
+        "L1": 4042,
+        "UB": 0,
+        "L0A": 0,
+        "L0B": 96,
+        "L0C": 0
+      },
+      "spill_dependency_checks": 758,
+      "reuse_barrier_count": 1155,
+      "reused_address_units": 170873,
+      "capacities": {
+        "L1": 4096,
+        "UB": 1024,
+        "L0A": 256,
+        "L0B": 256,
+        "L0C": 512
+      }
+    }
+  },
+  "Conv_Case1": {
+    "policy": "cost-distance",
+    "placement": "best-fit",
+    "additional_transfer": 44242,
+    "spill_count": 1374,
+    "capacity_failures": 10,
+    "fragmentation_failures": 432,
+    "repack_count": 0,
+    "source_schedule": "D:\\pack\\Codex\\2026-09-14\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\PersonalResearchSystem\\papers\\npu-scheduling-2025-a\\reproduction\\search-v2\\input_schedules\\Conv_Case1_schedule.txt",
+    "original_nodes": 36086,
+    "expanded_nodes": 38834,
+    "preserves_original_order": true,
+    "capacities": {
+      "L1": 4096,
+      "UB": 1024,
+      "L0A": 256,
+      "L0B": 256,
+      "L0C": 512
+    },
+    "trials": [
+      {
+        "policy": "paper-small",
+        "placement": "best-fit",
+        "additional_transfer": 73780,
+        "spill_count": 2867,
+        "capacity_failures": 13,
+        "fragmentation_failures": 786,
+        "repack_count": 0,
+        "seconds": 3.5808,
+        "valid": true
+      },
+      {
+        "policy": "paper-small",
+        "placement": "first-fit",
+        "additional_transfer": 75156,
+        "spill_count": 2867,
+        "capacity_failures": 3,
+        "fragmentation_failures": 824,
+        "repack_count": 0,
+        "seconds": 3.6833,
+        "valid": true
+      },
+      {
+        "policy": "paper-large",
+        "placement": "best-fit",
+        "additional_transfer": 76040,
+        "spill_count": 1091,
+        "capacity_failures": 9,
+        "fragmentation_failures": 1004,
+        "repack_count": 0,
+        "seconds": 3.39,
+        "valid": true
+      },
+      {
+        "policy": "paper-large",
+        "placement": "first-fit",
+        "additional_transfer": 81072,
+        "spill_count": 1320,
+        "capacity_failures": 0,
+        "fragmentation_failures": 1047,
+        "repack_count": 0,
+        "seconds": 3.4902,
+        "valid": true
+      },
+      {
+        "policy": "farthest",
+        "placement": "best-fit",
+        "additional_transfer": 44746,
+        "spill_count": 1348,
+        "capacity_failures": 21,
+        "fragmentation_failures": 409,
+        "repack_count": 0,
+        "seconds": 2.9956,
+        "valid": true
+      },
+      {
+        "policy": "farthest",
+        "placement": "first-fit",
+        "additional_transfer": 48662,
+        "spill_count": 1543,
+        "capacity_failures": 0,
+        "fragmentation_failures": 481,
+        "repack_count": 0,
+        "seconds": 3.2341,
+        "valid": true
+      },
+      {
+        "policy": "cost-distance",
+        "placement": "best-fit",
+        "additional_transfer": 44242,
+        "spill_count": 1374,
+        "capacity_failures": 10,
+        "fragmentation_failures": 432,
+        "repack_count": 0,
+        "seconds": 3.1022,
+        "valid": true
+      },
+      {
+        "policy": "cost-distance",
+        "placement": "first-fit",
+        "additional_transfer": 46762,
+        "spill_count": 1468,
+        "capacity_failures": 0,
+        "fragmentation_failures": 504,
+        "repack_count": 0,
+        "seconds": 3.1772,
+        "valid": true
+      }
+    ],
+    "validation": {
+      "validated": true,
+      "nodes": 36086,
+      "edges": 85653,
+      "buffers": 12013,
+      "schedule_nodes": 38834,
+      "spill_pairs": 1374,
+      "extra_data_movement": 44242,
+      "spill_pairs_by_type": {
+        "L1": 1374,
+        "UB": 0,
+        "L0A": 0,
+        "L0B": 0,
+        "L0C": 0
+      },
+      "extra_data_by_type": {
+        "L1": 44242,
+        "UB": 0,
+        "L0A": 0,
+        "L0B": 0,
+        "L0C": 0
+      },
+      "peak_resident_by_type": {
+        "L1": 4088,
+        "UB": 0,
+        "L0A": 0,
+        "L0B": 96,
+        "L0C": 0
+      },
+      "peak_logical_by_type": {
+        "L1": 14144,
+        "UB": 0,
+        "L0A": 0,
+        "L0B": 96,
+        "L0C": 0
+      },
+      "address_high_water_by_type": {
+        "L1": 4096,
+        "UB": 0,
+        "L0A": 0,
+        "L0B": 96,
+        "L0C": 0
+      },
+      "spill_dependency_checks": 27714,
+      "reuse_barrier_count": 15181,
+      "reused_address_units": 605593,
+      "capacities": {
+        "L1": 4096,
+        "UB": 1024,
+        "L0A": 256,
+        "L0B": 256,
+        "L0C": 512
+      }
+    }
+  },
+  "FlashAttention_Case0": {
+    "policy": "farthest",
+    "placement": "first-fit",
+    "additional_transfer": 3620,
+    "spill_count": 23,
+    "capacity_failures": 14,
+    "fragmentation_failures": 0,
+    "repack_count": 0,
+    "source_schedule": "D:\\pack\\Codex\\2026-09-14\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\PersonalResearchSystem\\papers\\npu-scheduling-2025-a\\reproduction\\search-v2\\input_schedules\\FlashAttention_Case0_schedule.txt",
+    "original_nodes": 1716,
+    "expanded_nodes": 1762,
+    "preserves_original_order": true,
+    "capacities": {
+      "L1": 4096,
+      "UB": 1024,
+      "L0A": 256,
+      "L0B": 256,
+      "L0C": 512
+    },
+    "trials": [
+      {
+        "policy": "paper-small",
+        "placement": "best-fit",
+        "additional_transfer": 5828,
+        "spill_count": 71,
+        "capacity_failures": 24,
+        "fragmentation_failures": 1,
+        "repack_count": 0,
+        "seconds": 0.2161,
+        "valid": true
+      },
+      {
+        "policy": "paper-small",
+        "placement": "first-fit",
+        "additional_transfer": 5820,
+        "spill_count": 69,
+        "capacity_failures": 25,
+        "fragmentation_failures": 1,
+        "repack_count": 0,
+        "seconds": 0.205,
+        "valid": true
+      },
+      {
+        "policy": "paper-large",
+        "placement": "best-fit",
+        "additional_transfer": 5632,
+        "spill_count": 22,
+        "capacity_failures": 22,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 0.2046,
+        "valid": true
+      },
+      {
+        "policy": "paper-large",
+        "placement": "first-fit",
+        "additional_transfer": 5632,
+        "spill_count": 22,
+        "capacity_failures": 7,
+        "fragmentation_failures": 15,
+        "repack_count": 0,
+        "seconds": 0.1976,
+        "valid": true
+      },
+      {
+        "policy": "farthest",
+        "placement": "best-fit",
+        "additional_transfer": 3624,
+        "spill_count": 24,
+        "capacity_failures": 14,
+        "fragmentation_failures": 2,
+        "repack_count": 0,
+        "seconds": 0.2,
+        "valid": true
+      },
+      {
+        "policy": "farthest",
+        "placement": "first-fit",
+        "additional_transfer": 3620,
+        "spill_count": 23,
+        "capacity_failures": 14,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 0.2043,
+        "valid": true
+      },
+      {
+        "policy": "cost-distance",
+        "placement": "best-fit",
+        "additional_transfer": 3624,
+        "spill_count": 24,
+        "capacity_failures": 14,
+        "fragmentation_failures": 2,
+        "repack_count": 0,
+        "seconds": 0.189,
+        "valid": true
+      },
+      {
+        "policy": "cost-distance",
+        "placement": "first-fit",
+        "additional_transfer": 3620,
+        "spill_count": 23,
+        "capacity_failures": 14,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 0.1986,
+        "valid": true
+      }
+    ],
+    "validation": {
+      "validated": true,
+      "nodes": 1716,
+      "edges": 2712,
+      "buffers": 572,
+      "schedule_nodes": 1762,
+      "spill_pairs": 23,
+      "extra_data_movement": 3620,
+      "spill_pairs_by_type": {
+        "L1": 0,
+        "UB": 23,
+        "L0A": 0,
+        "L0B": 0,
+        "L0C": 0
+      },
+      "extra_data_by_type": {
+        "L1": 0,
+        "UB": 3620,
+        "L0A": 0,
+        "L0B": 0,
+        "L0C": 0
+      },
+      "peak_resident_by_type": {
+        "L1": 3328,
+        "UB": 928,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      },
+      "peak_logical_by_type": {
+        "L1": 3328,
+        "UB": 1426,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      },
+      "address_high_water_by_type": {
+        "L1": 3328,
+        "UB": 928,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      },
+      "spill_dependency_checks": 128,
+      "reuse_barrier_count": 628,
+      "reused_address_units": 61306,
+      "capacities": {
+        "L1": 4096,
+        "UB": 1024,
+        "L0A": 256,
+        "L0B": 256,
+        "L0C": 512
+      }
+    }
+  },
+  "FlashAttention_Case1": {
+    "policy": "farthest",
+    "placement": "first-fit",
+    "additional_transfer": 32852,
+    "spill_count": 212,
+    "capacity_failures": 127,
+    "fragmentation_failures": 0,
+    "repack_count": 0,
+    "source_schedule": "D:\\pack\\Codex\\2026-09-14\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\PersonalResearchSystem\\papers\\npu-scheduling-2025-a\\reproduction\\search-v2\\input_schedules\\FlashAttention_Case1_schedule.txt",
+    "original_nodes": 6952,
+    "expanded_nodes": 7376,
+    "preserves_original_order": true,
+    "capacities": {
+      "L1": 4096,
+      "UB": 1024,
+      "L0A": 256,
+      "L0B": 256,
+      "L0C": 512
+    },
+    "trials": [
+      {
+        "policy": "paper-small",
+        "placement": "best-fit",
+        "additional_transfer": 38284,
+        "spill_count": 373,
+        "capacity_failures": 159,
+        "fragmentation_failures": 6,
+        "repack_count": 0,
+        "seconds": 0.8405,
+        "valid": true
+      },
+      {
+        "policy": "paper-small",
+        "placement": "first-fit",
+        "additional_transfer": 38236,
+        "spill_count": 361,
+        "capacity_failures": 165,
+        "fragmentation_failures": 1,
+        "repack_count": 0,
+        "seconds": 0.8581,
+        "valid": true
+      },
+      {
+        "policy": "paper-large",
+        "placement": "best-fit",
+        "additional_transfer": 37376,
+        "spill_count": 146,
+        "capacity_failures": 146,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 0.8531,
+        "valid": true
+      },
+      {
+        "policy": "paper-large",
+        "placement": "first-fit",
+        "additional_transfer": 42512,
+        "spill_count": 170,
+        "capacity_failures": 113,
+        "fragmentation_failures": 54,
+        "repack_count": 0,
+        "seconds": 0.8384,
+        "valid": true
+      },
+      {
+        "policy": "farthest",
+        "placement": "best-fit",
+        "additional_transfer": 32880,
+        "spill_count": 219,
+        "capacity_failures": 126,
+        "fragmentation_failures": 16,
+        "repack_count": 0,
+        "seconds": 0.8257,
+        "valid": true
+      },
+      {
+        "policy": "farthest",
+        "placement": "first-fit",
+        "additional_transfer": 32852,
+        "spill_count": 212,
+        "capacity_failures": 127,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 0.84,
+        "valid": true
+      },
+      {
+        "policy": "cost-distance",
+        "placement": "best-fit",
+        "additional_transfer": 32880,
+        "spill_count": 219,
+        "capacity_failures": 126,
+        "fragmentation_failures": 16,
+        "repack_count": 0,
+        "seconds": 0.8234,
+        "valid": true
+      },
+      {
+        "policy": "cost-distance",
+        "placement": "first-fit",
+        "additional_transfer": 32852,
+        "spill_count": 212,
+        "capacity_failures": 127,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 0.8509,
+        "valid": true
+      }
+    ],
+    "validation": {
+      "validated": true,
+      "nodes": 6952,
+      "edges": 11184,
+      "buffers": 2328,
+      "schedule_nodes": 7376,
+      "spill_pairs": 212,
+      "extra_data_movement": 32852,
+      "spill_pairs_by_type": {
+        "L1": 33,
+        "UB": 179,
+        "L0A": 0,
+        "L0B": 0,
+        "L0C": 0
+      },
+      "extra_data_by_type": {
+        "L1": 8448,
+        "UB": 24404,
+        "L0A": 0,
+        "L0B": 0,
+        "L0C": 0
+      },
+      "peak_resident_by_type": {
+        "L1": 4096,
+        "UB": 936,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      },
+      "peak_logical_by_type": {
+        "L1": 5376,
+        "UB": 2466,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      },
+      "address_high_water_by_type": {
+        "L1": 4096,
+        "UB": 936,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      },
+      "spill_dependency_checks": 1768,
+      "reuse_barrier_count": 2713,
+      "reused_address_units": 264082,
+      "capacities": {
+        "L1": 4096,
+        "UB": 1024,
+        "L0A": 256,
+        "L0B": 256,
+        "L0C": 512
+      }
+    }
+  },
+  "Matmul_Case0": {
+    "policy": "farthest",
+    "placement": "best-fit",
+    "additional_transfer": 12416,
+    "spill_count": 97,
+    "capacity_failures": 97,
+    "fragmentation_failures": 0,
+    "repack_count": 0,
+    "source_schedule": "D:\\pack\\Codex\\2026-09-14\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\PersonalResearchSystem\\papers\\npu-scheduling-2025-a\\reproduction\\search-v2\\input_schedules\\Matmul_Case0_schedule.txt",
+    "original_nodes": 4160,
+    "expanded_nodes": 4354,
+    "preserves_original_order": true,
+    "capacities": {
+      "L1": 4096,
+      "UB": 1024,
+      "L0A": 256,
+      "L0B": 256,
+      "L0C": 512
+    },
+    "trials": [
+      {
+        "policy": "paper-small",
+        "placement": "best-fit",
+        "additional_transfer": 31744,
+        "spill_count": 248,
+        "capacity_failures": 248,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 0.5791,
+        "valid": true
+      },
+      {
+        "policy": "paper-small",
+        "placement": "first-fit",
+        "additional_transfer": 31744,
+        "spill_count": 248,
+        "capacity_failures": 248,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 0.5764,
+        "valid": true
+      },
+      {
+        "policy": "paper-large",
+        "placement": "best-fit",
+        "additional_transfer": 31744,
+        "spill_count": 248,
+        "capacity_failures": 248,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 0.5953,
+        "valid": true
+      },
+      {
+        "policy": "paper-large",
+        "placement": "first-fit",
+        "additional_transfer": 31744,
+        "spill_count": 248,
+        "capacity_failures": 248,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 0.584,
+        "valid": true
+      },
+      {
+        "policy": "farthest",
+        "placement": "best-fit",
+        "additional_transfer": 12416,
+        "spill_count": 97,
+        "capacity_failures": 97,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 0.5359,
+        "valid": true
+      },
+      {
+        "policy": "farthest",
+        "placement": "first-fit",
+        "additional_transfer": 12416,
+        "spill_count": 97,
+        "capacity_failures": 97,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 0.5322,
+        "valid": true
+      },
+      {
+        "policy": "cost-distance",
+        "placement": "best-fit",
+        "additional_transfer": 12416,
+        "spill_count": 97,
+        "capacity_failures": 97,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 0.5223,
+        "valid": true
+      },
+      {
+        "policy": "cost-distance",
+        "placement": "first-fit",
+        "additional_transfer": 12416,
+        "spill_count": 97,
+        "capacity_failures": 97,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 0.5553,
+        "valid": true
+      }
+    ],
+    "validation": {
+      "validated": true,
+      "nodes": 4160,
+      "edges": 7104,
+      "buffers": 1216,
+      "schedule_nodes": 4354,
+      "spill_pairs": 97,
+      "extra_data_movement": 12416,
+      "spill_pairs_by_type": {
+        "L1": 97,
+        "UB": 0,
+        "L0A": 0,
+        "L0B": 0,
+        "L0C": 0
+      },
+      "extra_data_by_type": {
+        "L1": 12416,
+        "UB": 0,
+        "L0A": 0,
+        "L0B": 0,
+        "L0C": 0
+      },
+      "peak_resident_by_type": {
+        "L1": 4096,
+        "UB": 0,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      },
+      "peak_logical_by_type": {
+        "L1": 11264,
+        "UB": 0,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      },
+      "address_high_water_by_type": {
+        "L1": 4096,
+        "UB": 0,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      },
+      "spill_dependency_checks": 1292,
+      "reuse_barrier_count": 1278,
+      "reused_address_units": 171648,
+      "capacities": {
+        "L1": 4096,
+        "UB": 1024,
+        "L0A": 256,
+        "L0B": 256,
+        "L0C": 512
+      }
+    }
+  },
+  "Matmul_Case1": {
+    "policy": "farthest",
+    "placement": "best-fit",
+    "additional_transfer": 316672,
+    "spill_count": 2474,
+    "capacity_failures": 2474,
+    "fragmentation_failures": 0,
+    "repack_count": 0,
+    "source_schedule": "D:\\pack\\Codex\\2026-09-14\\referenced-chatgpt-conversation-this-is-an-2\\outputs\\PersonalResearchSystem\\papers\\npu-scheduling-2025-a\\reproduction\\search-v2\\input_schedules\\Matmul_Case1_schedule.txt",
+    "original_nodes": 30976,
+    "expanded_nodes": 35924,
+    "preserves_original_order": true,
+    "capacities": {
+      "L1": 4096,
+      "UB": 1024,
+      "L0A": 256,
+      "L0B": 256,
+      "L0C": 512
+    },
+    "trials": [
+      {
+        "policy": "paper-small",
+        "placement": "best-fit",
+        "additional_transfer": 622208,
+        "spill_count": 4861,
+        "capacity_failures": 4861,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 5.58,
+        "valid": true
+      },
+      {
+        "policy": "paper-small",
+        "placement": "first-fit",
+        "additional_transfer": 622208,
+        "spill_count": 4861,
+        "capacity_failures": 4861,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 5.5615,
+        "valid": true
+      },
+      {
+        "policy": "paper-large",
+        "placement": "best-fit",
+        "additional_transfer": 622208,
+        "spill_count": 4861,
+        "capacity_failures": 4861,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 5.6466,
+        "valid": true
+      },
+      {
+        "policy": "paper-large",
+        "placement": "first-fit",
+        "additional_transfer": 622208,
+        "spill_count": 4861,
+        "capacity_failures": 4861,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 5.6365,
+        "valid": true
+      },
+      {
+        "policy": "farthest",
+        "placement": "best-fit",
+        "additional_transfer": 316672,
+        "spill_count": 2474,
+        "capacity_failures": 2474,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 4.6865,
+        "valid": true
+      },
+      {
+        "policy": "farthest",
+        "placement": "first-fit",
+        "additional_transfer": 316672,
+        "spill_count": 2474,
+        "capacity_failures": 2474,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 4.674,
+        "valid": true
+      },
+      {
+        "policy": "cost-distance",
+        "placement": "best-fit",
+        "additional_transfer": 316672,
+        "spill_count": 2474,
+        "capacity_failures": 2474,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 4.6643,
+        "valid": true
+      },
+      {
+        "policy": "cost-distance",
+        "placement": "first-fit",
+        "additional_transfer": 316672,
+        "spill_count": 2474,
+        "capacity_failures": 2474,
+        "fragmentation_failures": 0,
+        "repack_count": 0,
+        "seconds": 4.7057,
+        "valid": true
+      }
+    ],
+    "validation": {
+      "validated": true,
+      "nodes": 30976,
+      "edges": 55040,
+      "buffers": 8960,
+      "schedule_nodes": 35924,
+      "spill_pairs": 2474,
+      "extra_data_movement": 316672,
+      "spill_pairs_by_type": {
+        "L1": 2474,
+        "UB": 0,
+        "L0A": 0,
+        "L0B": 0,
+        "L0C": 0
+      },
+      "extra_data_by_type": {
+        "L1": 316672,
+        "UB": 0,
+        "L0A": 0,
+        "L0B": 0,
+        "L0C": 0
+      },
+      "peak_resident_by_type": {
+        "L1": 4096,
+        "UB": 0,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      },
+      "peak_logical_by_type": {
+        "L1": 38912,
+        "UB": 0,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      },
+      "address_high_water_by_type": {
+        "L1": 4096,
+        "UB": 0,
+        "L0A": 128,
+        "L0B": 128,
+        "L0C": 256
+      },
+      "spill_dependency_checks": 76412,
+      "reuse_barrier_count": 11399,
+      "reused_address_units": 1491712,
+      "capacities": {
+        "L1": 4096,
+        "UB": 1024,
+        "L0A": 256,
+        "L0B": 256,
+        "L0C": 512
+      }
+    }
+  }
+}

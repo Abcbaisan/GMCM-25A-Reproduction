@@ -1,0 +1,6 @@
+Conv_Case0 farthest best-fit transfer= 47256 spills= 46
+Conv_Case1 cost-distance best-fit transfer= 55306 spills= 1725
+FlashAttention_Case0 farthest first-fit transfer= 3620 spills= 23
+FlashAttention_Case1 farthest first-fit transfer= 32852 spills= 212
+Matmul_Case0 farthest best-fit transfer= 34816 spills= 272
+Matmul_Case1 farthest best-fit transfer= 460800 spills= 3600

@@ -1,0 +1,68 @@
+# SPILL加权搬运目标（Weighted Transfer Cost）
+
+<!-- knowledge-meta:start -->
+```json
+{
+  "card_id": "a4c25b1d-5a6d-487e-bde3-424843eef70b",
+  "concept_id": "npu-spill-weighted-transfer",
+  "target_concept_id": "",
+  "title": "SPILL加权搬运目标（Weighted Transfer Cost）",
+  "aliases": [
+    "SPILL加权搬运目标"
+  ],
+  "category": "optimization",
+  "status": "candidate",
+  "disposition": "pending",
+  "merged_into": "",
+  "project_id": "npu-scheduling-2025-a",
+  "domains": [
+    "machine_learning",
+    "mathematical_modeling"
+  ],
+  "knowledge_type": "engineering_insight",
+  "source_project": "papers/npu-scheduling-2025-a",
+  "origin_outbox": "",
+  "delivery_status": "delivered",
+  "delivered_to": "knowledge_inbox/npu-scheduling-2025-a/a4c25b1d-5a6d-487e-bde3-424843eef70b.md",
+  "supersedes_card_id": "",
+  "difficulty": "beginner",
+  "created_at": "2026-09-14",
+  "updated_at": "2026-09-14",
+  "reviewed_by": "",
+  "reviewed_at": "",
+  "prerequisites": [
+    "npu-buffer-residency-lifetime"
+  ],
+  "related": [],
+  "sources": [
+    {
+      "type": "experiment",
+      "reference": "papers/npu-scheduling-2025-a/reproduction/config-v2.json",
+      "locator": "E2-20260914-v2; reproduction/tests.log; code/test_q2.py"
+    },
+    {
+      "type": "project",
+      "reference": "papers/npu-scheduling-2025-a/notes/source_audit.md",
+      "locator": "原题DOCX与论文页19—28、49—53核对；原件SHA256见config.json"
+    }
+  ],
+  "open_questions": []
+}
+```
+<!-- knowledge-meta:end -->
+
+一句话理解：优化 SPILL 搬运量需要按缓冲区大小与 COPY_IN 属性计费，不能只数次数。
+
+前提：成对OUT/IN和缓冲区大小。直觉：多搬几次小数据可能比搬一次大数据更便宜。
+
+定义：D=Σ_k(2-c_k)s_k。k遍历每次SPILL对，s_k是缓冲区Size，c_k=1表示原图任意COPY_IN的Bufs含该缓冲区，否则为0。每次重复换出重复收费；Cycles与本指标不同。
+
+最小例子（手算）：COPY_IN关联大小100的缓冲区换出3次，成本300；无COPY_IN大小200换出1次，成本400。计费分支已在 test_copy_in_cost_and_reuse_barriers 运行，见 tests.log。
+
+应用：本项目求解器选最小D，独立验证器从正式输出重算D，不读取求解器声称的分数。相同D时才比较SPILL对数。
+
+边界：公式仅按2025年A题附录规定；不等价于任意硬件的实际字节流量或完成时间。COPY_IN分类按题目静态属性，不按临时猜测的数据来源。
+
+自测：只最小化次数会选哪个例子？答案：可能选成本400的一次换出，因此偏离真正目标。
+
+来源与证据：题目规则见项目来源审查；上述自动测试对应配置与真实日志见元数据 sources。教学手算与程序实测已分别标注。

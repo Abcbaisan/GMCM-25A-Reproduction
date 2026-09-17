@@ -1,0 +1,236 @@
+{
+  "Conv_Case0": {
+    "nodes": 2580,
+    "edges": 3869,
+    "raw_initial_peaks": {
+      "id": 133031,
+      "greedy": 80170,
+      "critical": 17138
+    },
+    "initial_peaks": {
+      "id": 39010,
+      "greedy": 39010,
+      "critical": 13970
+    },
+    "compact": true,
+    "chosen": "critical",
+    "final_peak": 13970,
+    "per_type_peaks": {
+      "L1": 13970,
+      "L0B": 96
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 0,
+    "trace": [],
+    "objective": "l1ub",
+    "l0_single": true,
+    "paper_score": true,
+    "failed_initializations": {
+      "depth": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+    },
+    "parameters": {
+      "T_initial": 698.5,
+      "T_final": 0.01,
+      "boundary_weight": 4,
+      "other_weight": 1
+    },
+    "scope": "DAG and buffer lifetimes; optional L0 exclusivity; no L1/UB capacity limits"
+  },
+  "Conv_Case1": {
+    "nodes": 36086,
+    "edges": 85653,
+    "raw_initial_peaks": {
+      "id": 383112,
+      "greedy": 310408,
+      "critical": 85868
+    },
+    "initial_peaks": {
+      "id": 105446,
+      "greedy": 33830,
+      "critical": 73672
+    },
+    "compact": true,
+    "chosen": "greedy",
+    "final_peak": 33830,
+    "per_type_peaks": {
+      "L1": 33830,
+      "L0B": 96
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 0,
+    "trace": [],
+    "objective": "l1ub",
+    "l0_single": true,
+    "paper_score": true,
+    "failed_initializations": {
+      "depth": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+    },
+    "parameters": {
+      "T_initial": 1691.5,
+      "T_final": 0.01,
+      "boundary_weight": 4,
+      "other_weight": 1
+    },
+    "scope": "DAG and buffer lifetimes; optional L0 exclusivity; no L1/UB capacity limits"
+  },
+  "FlashAttention_Case0": {
+    "nodes": 1716,
+    "edges": 2712,
+    "raw_initial_peaks": {
+      "id": 35592,
+      "greedy": 26728
+    },
+    "initial_peaks": {
+      "id": 7052,
+      "greedy": 4498
+    },
+    "compact": true,
+    "chosen": "greedy",
+    "final_peak": 4498,
+    "per_type_peaks": {
+      "L1": 3328,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256,
+      "UB": 1426
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 0,
+    "trace": [],
+    "objective": "l1ub",
+    "l0_single": true,
+    "paper_score": true,
+    "failed_initializations": {
+      "depth": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度",
+      "critical": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+    },
+    "parameters": {
+      "T_initial": 224.9,
+      "T_final": 0.01,
+      "boundary_weight": 4,
+      "other_weight": 1
+    },
+    "scope": "DAG and buffer lifetimes; optional L0 exclusivity; no L1/UB capacity limits"
+  },
+  "FlashAttention_Case1": {
+    "nodes": 6952,
+    "edges": 11184,
+    "raw_initial_peaks": {
+      "id": 134288,
+      "greedy": 106992
+    },
+    "initial_peaks": {
+      "id": 14236,
+      "greedy": 7586
+    },
+    "compact": true,
+    "chosen": "greedy",
+    "final_peak": 7586,
+    "per_type_peaks": {
+      "L1": 5376,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256,
+      "UB": 2466
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 0,
+    "trace": [],
+    "objective": "l1ub",
+    "l0_single": true,
+    "paper_score": true,
+    "failed_initializations": {
+      "depth": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度",
+      "critical": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+    },
+    "parameters": {
+      "T_initial": 379.3,
+      "T_final": 0.01,
+      "boundary_weight": 4,
+      "other_weight": 1
+    },
+    "scope": "DAG and buffer lifetimes; optional L0 exclusivity; no L1/UB capacity limits"
+  },
+  "Matmul_Case0": {
+    "nodes": 4160,
+    "edges": 7104,
+    "raw_initial_peaks": {
+      "id": 16384,
+      "greedy": 9216
+    },
+    "initial_peaks": {
+      "id": 16384,
+      "greedy": 9216
+    },
+    "compact": true,
+    "chosen": "greedy",
+    "final_peak": 9216,
+    "per_type_peaks": {
+      "L1": 9216,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 0,
+    "trace": [],
+    "objective": "l1ub",
+    "l0_single": true,
+    "paper_score": true,
+    "failed_initializations": {
+      "depth": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度",
+      "critical": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+    },
+    "parameters": {
+      "T_initial": 460.8,
+      "T_final": 0.01,
+      "boundary_weight": 4,
+      "other_weight": 1
+    },
+    "scope": "DAG and buffer lifetimes; optional L0 exclusivity; no L1/UB capacity limits"
+  },
+  "Matmul_Case1": {
+    "nodes": 30976,
+    "edges": 55040,
+    "raw_initial_peaks": {
+      "id": 65536,
+      "greedy": 34816
+    },
+    "initial_peaks": {
+      "id": 65536,
+      "greedy": 34816
+    },
+    "compact": true,
+    "chosen": "greedy",
+    "final_peak": 34816,
+    "per_type_peaks": {
+      "L1": 34816,
+      "L0A": 128,
+      "L0B": 128,
+      "L0C": 256
+    },
+    "valid": true,
+    "seed": 2025,
+    "iterations": 0,
+    "trace": [],
+    "objective": "l1ub",
+    "l0_single": true,
+    "paper_score": true,
+    "failed_initializations": {
+      "depth": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度",
+      "critical": "无合法就绪节点：图中有环或当前L0选择导致死锁；不能强行调度"
+    },
+    "parameters": {
+      "T_initial": 1740.8000000000002,
+      "T_final": 0.01,
+      "boundary_weight": 4,
+      "other_weight": 1
+    },
+    "scope": "DAG and buffer lifetimes; optional L0 exclusivity; no L1/UB capacity limits"
+  }
+}

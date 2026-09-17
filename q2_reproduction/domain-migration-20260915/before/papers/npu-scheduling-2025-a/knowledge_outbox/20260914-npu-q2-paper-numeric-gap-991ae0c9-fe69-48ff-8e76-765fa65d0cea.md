@@ -1,0 +1,47 @@
+# 论文表5.4数值差异待解释
+
+<!-- knowledge-meta:start -->
+```json
+{
+  "card_id": "991ae0c9-fe69-48ff-8e76-765fa65d0cea",
+  "concept_id": "npu-q2-paper-numeric-gap",
+  "target_concept_id": "",
+  "title": "论文表5.4数值差异待解释",
+  "aliases": [],
+  "category": "optimization",
+  "status": "candidate",
+  "disposition": "pending",
+  "merged_into": "",
+  "project_id": "npu-scheduling-2025-a",
+  "domains": [
+    "machine_learning",
+    "mathematical_modeling"
+  ],
+  "knowledge_type": "open_question",
+  "source_project": "papers/npu-scheduling-2025-a",
+  "origin_outbox": "",
+  "delivery_status": "delivered",
+  "delivered_to": "knowledge_inbox/npu-scheduling-2025-a/991ae0c9-fe69-48ff-8e76-765fa65d0cea.md",
+  "supersedes_card_id": "",
+  "difficulty": "intermediate",
+  "created_at": "2026-09-14",
+  "updated_at": "2026-09-14",
+  "reviewed_by": "",
+  "reviewed_at": "",
+  "prerequisites": [],
+  "related": [],
+  "sources": [
+    {
+      "type": "project",
+      "reference": "papers/npu-scheduling-2025-a/notes/source_audit.md",
+      "locator": "E2-20260914-v2；配置和正式结果位于reproduction/"
+    }
+  ],
+  "open_questions": [
+    "作者完整可运行程序与原始输出尚缺"
+  ]
+}
+```
+<!-- knowledge-meta:end -->
+
+正文与附录不一致且作者程序不完整；尚不能唯一定位数值差异。后续应取得完整代码/输出，或控制变量比较调度和分配。

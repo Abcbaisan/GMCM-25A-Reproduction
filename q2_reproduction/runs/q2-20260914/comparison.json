@@ -1,0 +1,62 @@
+[
+  {
+    "case": "Conv_Case0",
+    "paper_transfer": 23752,
+    "paper_spill_pairs": 366,
+    "baseline_transfer": 47256,
+    "local_transfer": 46872,
+    "local_spill_pairs": 58,
+    "delta_percent": 97.33917143819468,
+    "validated": true
+  },
+  {
+    "case": "Conv_Case1",
+    "paper_transfer": 35344,
+    "paper_spill_pairs": 1013,
+    "baseline_transfer": 55306,
+    "local_transfer": 44242,
+    "local_spill_pairs": 1374,
+    "delta_percent": 25.175418741511997,
+    "validated": true
+  },
+  {
+    "case": "FlashAttention_Case0",
+    "paper_transfer": 17148,
+    "paper_spill_pairs": 129,
+    "baseline_transfer": 3620,
+    "local_transfer": 3620,
+    "local_spill_pairs": 23,
+    "delta_percent": -78.8896664334033,
+    "validated": true
+  },
+  {
+    "case": "FlashAttention_Case1",
+    "paper_transfer": 45820,
+    "paper_spill_pairs": 241,
+    "baseline_transfer": 32852,
+    "local_transfer": 32852,
+    "local_spill_pairs": 212,
+    "delta_percent": -28.302051505892624,
+    "validated": true
+  },
+  {
+    "case": "Matmul_Case0",
+    "paper_transfer": 12288,
+    "paper_spill_pairs": 96,
+    "baseline_transfer": 34816,
+    "local_transfer": 12416,
+    "local_spill_pairs": 97,
+    "delta_percent": 1.0416666666666667,
+    "validated": true
+  },
+  {
+    "case": "Matmul_Case1",
+    "paper_transfer": 60416,
+    "paper_spill_pairs": 472,
+    "baseline_transfer": 460800,
+    "local_transfer": 316672,
+    "local_spill_pairs": 2474,
+    "delta_percent": 424.1525423728813,
+    "validated": true
+  }
+]
