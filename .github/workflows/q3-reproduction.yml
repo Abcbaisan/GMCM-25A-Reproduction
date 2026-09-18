@@ -1,0 +1,40 @@
+name: Problem 3 reproduction
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - q3_reproduction/q3.py
+      - q3_reproduction/test_q3.py
+      - .github/workflows/q3-reproduction.yml
+
+permissions:
+  contents: write
+
+jobs:
+  validate-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run regression tests
+        run: python -m unittest discover -s q3_reproduction -p 'test_q3.py' -v
+      - name: Solve and validate all official cases
+        run: |
+          python q3_reproduction/q3.py --case all --tolerance-pct 5 --max-swaps 64 --swap-passes 2
+          python q2_reproduction/verify_q2.py --zip '通用神经网络处理器下的核内调度问题附件.zip' --results q3_reproduction/results
+      - name: Publish only fully validated outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add q3_reproduction/results
+          if ! git diff --cached --quiet; then
+            git commit -m 'results(q3): publish independently verified six-case results'
+            git push origin HEAD:main
+          fi
