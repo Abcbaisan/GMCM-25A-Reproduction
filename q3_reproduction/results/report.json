@@ -1,0 +1,601 @@
+{
+  "Conv_Case0": {
+    "baseline_source": "/home/runner/work/GMCM-25A-Reproduction/GMCM-25A-Reproduction/q2_reproduction/runs/q2-20260914/optimized",
+    "baseline_cycles": 476530,
+    "baseline_extra_data": 46872,
+    "movement_limit_percent": 5.0,
+    "selected_candidate": "q2-optimized-baseline",
+    "optimized_cycles": 476530,
+    "optimized_extra_data": 46872,
+    "time_reduction_percent": 0.0,
+    "spill_pairs": 58,
+    "validated": true,
+    "swap_search": {
+      "evaluated_swaps": 0,
+      "accepted_swaps": 0
+    },
+    "trials": [
+      {
+        "candidate": "q2-optimized-baseline",
+        "cycles": 476530,
+        "extra_data": 46872,
+        "valid": true,
+        "accepted": true
+      },
+      {
+        "candidate": "q2-results",
+        "valid": true,
+        "accepted": false,
+        "cycles": 489768,
+        "extra_data": 47256,
+        "spills": 46
+      },
+      {
+        "candidate": "q2-original-order/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 476530,
+        "extra_data": 46872,
+        "spills": 58
+      },
+      {
+        "candidate": "q2-original-order/farthest/first-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 57638,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "q2-original-order/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 476530,
+        "extra_data": 46872,
+        "spills": 58
+      },
+      {
+        "candidate": "q2-original-order/cost-distance/first-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 57638,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 613185,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 639781,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical-free/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 352600,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical-free/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 355432,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "adjacent-swap-refinement",
+        "valid": true,
+        "accepted": false,
+        "cycles": 476530,
+        "evaluated_swaps": 0,
+        "accepted_swaps": 0
+      }
+    ]
+  },
+  "Conv_Case1": {
+    "baseline_source": "/home/runner/work/GMCM-25A-Reproduction/GMCM-25A-Reproduction/q2_reproduction/runs/q2-20260914/optimized",
+    "baseline_cycles": 1026586,
+    "baseline_extra_data": 44242,
+    "movement_limit_percent": 5.0,
+    "selected_candidate": "q2-optimized-baseline",
+    "optimized_cycles": 1026586,
+    "optimized_extra_data": 44242,
+    "time_reduction_percent": 0.0,
+    "spill_pairs": 1374,
+    "validated": true,
+    "swap_search": {
+      "evaluated_swaps": 0,
+      "accepted_swaps": 0
+    },
+    "trials": [
+      {
+        "candidate": "q2-optimized-baseline",
+        "cycles": 1026586,
+        "extra_data": 44242,
+        "valid": true,
+        "accepted": true
+      },
+      {
+        "candidate": "q2-results",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 55306,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "q2-original-order/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 1051449,
+        "extra_data": 44746,
+        "spills": 1348
+      },
+      {
+        "candidate": "q2-original-order/farthest/first-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 48662,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "q2-original-order/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 1026586,
+        "extra_data": 44242,
+        "spills": 1374
+      },
+      {
+        "candidate": "q2-original-order/cost-distance/first-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 46762,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 1671846,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 1672184,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical-free/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 632660,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical-free/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 629516,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "adjacent-swap-refinement",
+        "valid": true,
+        "accepted": false,
+        "cycles": 1026586,
+        "evaluated_swaps": 0,
+        "accepted_swaps": 0
+      }
+    ]
+  },
+  "FlashAttention_Case0": {
+    "baseline_source": "/home/runner/work/GMCM-25A-Reproduction/GMCM-25A-Reproduction/q2_reproduction/runs/q2-20260914/optimized",
+    "baseline_cycles": 51934,
+    "baseline_extra_data": 3620,
+    "movement_limit_percent": 5.0,
+    "selected_candidate": "q2-optimized-baseline",
+    "optimized_cycles": 51934,
+    "optimized_extra_data": 3620,
+    "time_reduction_percent": 0.0,
+    "spill_pairs": 23,
+    "validated": true,
+    "swap_search": {
+      "evaluated_swaps": 0,
+      "accepted_swaps": 0
+    },
+    "trials": [
+      {
+        "candidate": "q2-optimized-baseline",
+        "cycles": 51934,
+        "extra_data": 3620,
+        "valid": true,
+        "accepted": true
+      },
+      {
+        "candidate": "q2-results",
+        "valid": true,
+        "accepted": false,
+        "cycles": 51934,
+        "extra_data": 3620,
+        "spills": 23
+      },
+      {
+        "candidate": "q2-original-order/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 52044,
+        "extra_data": 3624,
+        "spills": 24
+      },
+      {
+        "candidate": "q2-original-order/farthest/first-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 51934,
+        "extra_data": 3620,
+        "spills": 23
+      },
+      {
+        "candidate": "q2-original-order/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 52044,
+        "extra_data": 3624,
+        "spills": 24
+      },
+      {
+        "candidate": "q2-original-order/cost-distance/first-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 51934,
+        "extra_data": 3620,
+        "spills": 23
+      },
+      {
+        "candidate": "critical/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 210628,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 209092,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical-free/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 97492,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical-free/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 96980,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "adjacent-swap-refinement",
+        "valid": true,
+        "accepted": false,
+        "cycles": 51934,
+        "evaluated_swaps": 0,
+        "accepted_swaps": 0
+      }
+    ]
+  },
+  "FlashAttention_Case1": {
+    "baseline_source": "/home/runner/work/GMCM-25A-Reproduction/GMCM-25A-Reproduction/q2_reproduction/runs/q2-20260914/optimized",
+    "baseline_cycles": 225921,
+    "baseline_extra_data": 32852,
+    "movement_limit_percent": 5.0,
+    "selected_candidate": "q2-optimized-baseline",
+    "optimized_cycles": 225921,
+    "optimized_extra_data": 32852,
+    "time_reduction_percent": 0.0,
+    "spill_pairs": 212,
+    "validated": true,
+    "swap_search": {
+      "evaluated_swaps": 0,
+      "accepted_swaps": 0
+    },
+    "trials": [
+      {
+        "candidate": "q2-optimized-baseline",
+        "cycles": 225921,
+        "extra_data": 32852,
+        "valid": true,
+        "accepted": true
+      },
+      {
+        "candidate": "q2-results",
+        "valid": true,
+        "accepted": false,
+        "cycles": 225921,
+        "extra_data": 32852,
+        "spills": 212
+      },
+      {
+        "candidate": "q2-original-order/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 227189,
+        "extra_data": 32880,
+        "spills": 219
+      },
+      {
+        "candidate": "q2-original-order/farthest/first-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 225921,
+        "extra_data": 32852,
+        "spills": 212
+      },
+      {
+        "candidate": "q2-original-order/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 227189,
+        "extra_data": 32880,
+        "spills": 219
+      },
+      {
+        "candidate": "q2-original-order/cost-distance/first-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 225921,
+        "extra_data": 32852,
+        "spills": 212
+      },
+      {
+        "candidate": "critical/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 962500,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 960964,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical-free/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 486228,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical-free/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 485716,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "adjacent-swap-refinement",
+        "valid": true,
+        "accepted": false,
+        "cycles": 225921,
+        "evaluated_swaps": 0,
+        "accepted_swaps": 0
+      }
+    ]
+  },
+  "Matmul_Case0": {
+    "baseline_source": "/home/runner/work/GMCM-25A-Reproduction/GMCM-25A-Reproduction/q2_reproduction/runs/q2-20260914/optimized",
+    "baseline_cycles": 140398,
+    "baseline_extra_data": 12416,
+    "movement_limit_percent": 5.0,
+    "selected_candidate": "q2-optimized-baseline",
+    "optimized_cycles": 140398,
+    "optimized_extra_data": 12416,
+    "time_reduction_percent": 0.0,
+    "spill_pairs": 97,
+    "validated": true,
+    "swap_search": {
+      "evaluated_swaps": 0,
+      "accepted_swaps": 0
+    },
+    "trials": [
+      {
+        "candidate": "q2-optimized-baseline",
+        "cycles": 140398,
+        "extra_data": 12416,
+        "valid": true,
+        "accepted": true
+      },
+      {
+        "candidate": "q2-results",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 34816,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "q2-original-order/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 140398,
+        "extra_data": 12416,
+        "spills": 97
+      },
+      {
+        "candidate": "q2-original-order/farthest/first-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 140439,
+        "extra_data": 12416,
+        "spills": 97
+      },
+      {
+        "candidate": "q2-original-order/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 140398,
+        "extra_data": 12416,
+        "spills": 97
+      },
+      {
+        "candidate": "q2-original-order/cost-distance/first-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 140439,
+        "extra_data": 12416,
+        "spills": 97
+      },
+      {
+        "candidate": "critical/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 823168,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 823168,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical-free/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 516864,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical-free/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 516864,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "adjacent-swap-refinement",
+        "valid": true,
+        "accepted": false,
+        "cycles": 140398,
+        "evaluated_swaps": 0,
+        "accepted_swaps": 0
+      }
+    ]
+  },
+  "Matmul_Case1": {
+    "baseline_source": "/home/runner/work/GMCM-25A-Reproduction/GMCM-25A-Reproduction/q2_reproduction/runs/q2-20260914/optimized",
+    "baseline_cycles": 1683756,
+    "baseline_extra_data": 316672,
+    "movement_limit_percent": 5.0,
+    "selected_candidate": "q2-original-order/farthest/first-fit",
+    "optimized_cycles": 1683725,
+    "optimized_extra_data": 316672,
+    "time_reduction_percent": 0.00184,
+    "spill_pairs": 2474,
+    "validated": true,
+    "swap_search": {
+      "evaluated_swaps": 0,
+      "accepted_swaps": 0
+    },
+    "trials": [
+      {
+        "candidate": "q2-optimized-baseline",
+        "cycles": 1683756,
+        "extra_data": 316672,
+        "valid": true,
+        "accepted": true
+      },
+      {
+        "candidate": "q2-results",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 460800,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "q2-original-order/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 1683756,
+        "extra_data": 316672,
+        "spills": 2474
+      },
+      {
+        "candidate": "q2-original-order/farthest/first-fit",
+        "valid": true,
+        "accepted": true,
+        "cycles": 1683725,
+        "extra_data": 316672,
+        "spills": 2474
+      },
+      {
+        "candidate": "q2-original-order/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 1683756,
+        "extra_data": 316672,
+        "spills": 2474
+      },
+      {
+        "candidate": "q2-original-order/cost-distance/first-fit",
+        "valid": true,
+        "accepted": false,
+        "cycles": 1683725,
+        "extra_data": 316672,
+        "spills": 2474
+      },
+      {
+        "candidate": "critical/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 6506240,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 6506240,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical-free/farthest/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 4217472,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "critical-free/cost-distance/best-fit",
+        "valid": true,
+        "accepted": false,
+        "extra_data": 4217472,
+        "reason": "超过搬运量上限"
+      },
+      {
+        "candidate": "adjacent-swap-refinement",
+        "valid": true,
+        "accepted": false,
+        "cycles": 1683725,
+        "evaluated_swaps": 0,
+        "accepted_swaps": 0
+      }
+    ]
+  }
+}
