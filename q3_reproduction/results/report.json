@@ -89,7 +89,7 @@
         "reason": "超过搬运量上限"
       },
       {
-        "candidate": "adjacent-swap-refinement",
+        "candidate": "adjacent-cross-pipe-refinement",
         "valid": true,
         "accepted": false,
         "cycles": 476530,
@@ -187,7 +187,7 @@
         "reason": "超过搬运量上限"
       },
       {
-        "candidate": "adjacent-swap-refinement",
+        "candidate": "adjacent-cross-pipe-refinement",
         "valid": true,
         "accepted": false,
         "cycles": 1026586,
@@ -208,7 +208,7 @@
     "spill_pairs": 23,
     "validated": true,
     "swap_search": {
-      "evaluated_swaps": 0,
+      "evaluated_swaps": 4,
       "accepted_swaps": 0
     },
     "trials": [
@@ -288,11 +288,11 @@
         "reason": "超过搬运量上限"
       },
       {
-        "candidate": "adjacent-swap-refinement",
+        "candidate": "adjacent-cross-pipe-refinement",
         "valid": true,
         "accepted": false,
         "cycles": 51934,
-        "evaluated_swaps": 0,
+        "evaluated_swaps": 4,
         "accepted_swaps": 0
       }
     ]
@@ -309,7 +309,7 @@
     "spill_pairs": 212,
     "validated": true,
     "swap_search": {
-      "evaluated_swaps": 0,
+      "evaluated_swaps": 8,
       "accepted_swaps": 0
     },
     "trials": [
@@ -389,11 +389,11 @@
         "reason": "超过搬运量上限"
       },
       {
-        "candidate": "adjacent-swap-refinement",
+        "candidate": "adjacent-cross-pipe-refinement",
         "valid": true,
         "accepted": false,
         "cycles": 225921,
-        "evaluated_swaps": 0,
+        "evaluated_swaps": 8,
         "accepted_swaps": 0
       }
     ]
@@ -489,7 +489,7 @@
         "reason": "超过搬运量上限"
       },
       {
-        "candidate": "adjacent-swap-refinement",
+        "candidate": "adjacent-cross-pipe-refinement",
         "valid": true,
         "accepted": false,
         "cycles": 140398,
@@ -589,7 +589,7 @@
         "reason": "超过搬运量上限"
       },
       {
-        "candidate": "adjacent-swap-refinement",
+        "candidate": "adjacent-cross-pipe-refinement",
         "valid": true,
         "accepted": false,
         "cycles": 1683725,
