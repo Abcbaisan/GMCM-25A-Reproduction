@@ -34,6 +34,7 @@ class PipelineModel:
         self.spills = list(spills)
         total = self.n + 2 * len(spills)
         self.preds = [set() for _ in range(total)]
+        self.succ = [set() for _ in range(total)]
         self.pipe = [None] * total
         self.cycles = [0] * total
         self.orig_edges = set(map(tuple, data["Edges"]))
@@ -56,6 +57,7 @@ class PipelineModel:
             if self.position[u] >= self.position[v]:
                 raise ValueError(f"依赖反向：{u}->{v}")
             self.preds[v].add(u)
+            self.succ[u].add(v)
 
         for u, v in self.orig_edges:
             edge(u, v)
@@ -81,7 +83,6 @@ class PipelineModel:
                 else:
                     raise ValueError(f"Buf{b} 在 OUT/IN 中间被使用")
 
-        # 按地址单元独立重放物理占用，对复用建立 上次释放 -> 本次申请 的边。
         owners = {t: [None] * cap for t, cap in CAPACITIES.items()}
         last_release = {t: [None] * cap for t, cap in CAPACITIES.items()}
         resident = {}
@@ -146,6 +147,17 @@ class PipelineModel:
             latest = max(latest, end)
         return latest
 
+    def adjacent_swap_legal(self, schedule, i):
+        """判断交换 schedule[i], schedule[i+1] 后是否仍满足本模型全部显式依赖。
+
+        对相邻节点而言，只需排除 a -> b 的直接边：不存在中间节点，因此若存在
+        a 到 b 的任意更长路径，就必然经过某个中间节点，不可能与当前相邻关系同时成立。
+        """
+        if not 0 <= i < len(schedule) - 1:
+            return False
+        a, b = schedule[i], schedule[i + 1]
+        return a not in self.preds[b]
+
 
 def critical_order(data, free_first=False):
     """可选关键路径拓扑序；地址和 SPILL 由问题二重新求解。"""
@@ -198,7 +210,12 @@ def critical_order(data, free_first=False):
 
 
 def improve_swaps(model, schedule, budget=64, passes=2):
-    """只交换相邻的、同 Pipe 且缓冲区不相交的独立普通节点。"""
+    """贪心交换相邻独立节点，允许跨 Pipe 调整以增加流水重叠。
+
+    地址和 SPILL 清单保持不变，因此不交换 ALLOC/FREE/SPILL；普通操作只要
+    交换后仍满足全部显式依赖，就允许进入候选。相比旧版“仅同 Pipe”限制，
+    跨 Pipe 相邻交换才可能改变发射先后并改善流水重叠。
+    """
     result = list(schedule)
     best_time = model.makespan(result)
     accepted = 0
@@ -212,11 +229,7 @@ def improve_swaps(model, schedule, budget=64, passes=2):
             na, nb = model.nodes[a], model.nodes[b]
             if na["Op"] in ("ALLOC", "FREE") or nb["Op"] in ("ALLOC", "FREE"):
                 continue
-            if model.pipe[a] != model.pipe[b] or not model.pipe[a]:
-                continue
-            if set(na["Bufs"]) & set(nb["Bufs"]):
-                continue
-            if (a, b) in model.orig_edges:
+            if not model.adjacent_swap_legal(result, i):
                 continue
             candidates.append(i)
         if not candidates or budget <= 0:
@@ -228,10 +241,12 @@ def improve_swaps(model, schedule, budget=64, passes=2):
             result[i], result[i + 1] = result[i + 1], result[i]
             try:
                 score = model.makespan(result)
+            except ValueError:
+                score = None
             finally:
                 result[i], result[i + 1] = result[i + 1], result[i]
             tested += 1
-            if score < winner_time:
+            if score is not None and score < winner_time:
                 winner, winner_time = i, score
         if winner is None:
             break
@@ -301,9 +316,9 @@ def solve_one(data, case, baseline_dir, alternative_dir, out, tolerance, max_swa
     model = PipelineModel(data, *solution)
     candidate_schedule, candidate_time, swap_stats = improve_swaps(model, solution[0], max_swaps, passes)
     if candidate_time < best[1]:
-        consider("adjacent-swap-refinement", (candidate_schedule, solution[1], solution[2]))
+        consider("adjacent-cross-pipe-refinement", (candidate_schedule, solution[1], solution[2]))
     else:
-        rows.append({"candidate": "adjacent-swap-refinement", "valid": True, "accepted": False, "cycles": candidate_time, **swap_stats})
+        rows.append({"candidate": "adjacent-cross-pipe-refinement", "valid": True, "accepted": False, "cycles": candidate_time, **swap_stats})
 
     solution, time, label, check = best
     final_check = verify_case(data, *solution)
